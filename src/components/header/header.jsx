@@ -15,17 +15,17 @@ function Header() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
                     {/* <Nav.Link className='navlinq' as={Link} to="/home">Home</Nav.Link> */}
-                    <Nav.Link href='#home' className='navlinq'>Home</Nav.Link>
-                    <Nav.Link href="#branding" className='navlinq'>Branding</Nav.Link>
+                    <Nav.Link href='./' className='navlinq'>Home</Nav.Link>
+                    <Nav.Link href="./branding" className='navlinq'>Branding</Nav.Link>
                     <Nav.Link href="#marketing" className='navlinq'>Marketing</Nav.Link>
-                    <Nav.Link href="#service" className='navlinq'>Services</Nav.Link>
+                    <Nav.Link href="./service" className='navlinq'>Services</Nav.Link>
                     <Nav.Link href="#faqs" className='navlinq'>FAQs</Nav.Link>
                     <Nav.Link href="#whychooseus" className='navlinq'>Why Choose Us</Nav.Link>
                     <Nav.Link href="#contactus" className='navlinq'>Contact Us</Nav.Link>
                   </Nav>
                   <Nav>
                     <Nav.Link href="#conultation">
-                      <button className='btn btn-success' style={{fontFamily: 'Urbanist-medium',fontSize: '14px'}}>Book a Free Consultation</button>
+                      <button className='btn btn-success' style={{fontFamily: 'Urbanist-medium',fontSize: '14px', backgroundColor: '#65E4A1', color: 'black'}}>Book a Free Consultation</button>
                     </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
