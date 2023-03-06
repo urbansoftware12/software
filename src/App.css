@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'urbanist-regular';
+  src: url(../src/assets/Fonts/Urbanist-Regular.ttf);
+}
+@font-face {
+  font-family: 'urbanist-medium';
+  src: url(../src/assets/Fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+  font-family: 'urbanist-black';
+  src: url(../src/assets/Fonts/Urbanist-Black.ttf);
+}
+@font-face {
+  font-family: 'urbanist-blackitalic';
+  src: url(../src/assets/Fonts/Urbanist-BlackItalic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-bold';
+  src: url(../src/assets/Fonts/Urbanist-Bold.ttf);
+}
+@font-face {
+  font-family: 'urbanist-bolditalic';
+  src: url(../src/assets/Fonts/Urbanist-BoldItalic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-extrabold';
+  src: url(../src/assets/Fonts/Urbanist-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'urbanist-extrabolditalic';
+  src: url(../src/assets/Fonts/Urbanist-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-italic';
+  src: url(../src/assets/Fonts/Urbanist-Italic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-light';
+  src: url(../src/assets/Fonts/Urbanist-Light.ttf);
+}
+@font-face {
+  font-family: 'urbanist-lightitalic';
+  src: url(../src/assets/Fonts/Urbanist-LightItalic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-mediumitalic';
+  src: url(../src/assets/Fonts/Urbanist-MediumItalic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-semibold';
+  src: url(../src/assets/Fonts/Urbanist-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'urbanist-extrabolditalic';
+  src: url(../src/assets/Fonts/Urbanist-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: 'urbanist-thin';
+  src: url(../src/assets/Fonts/Urbanist-Thin.ttf);
+}
+@font-face {
+  font-family: 'urbanist-thinitalic';
+  src: url(../src/assets/Fonts/Urbanist-ThinItalic.ttf);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
