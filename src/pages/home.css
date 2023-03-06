@@ -1,0 +1,146 @@
+.frstsec{
+    background-image: url(../assets/urbana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thrdsec{
+    background: linear-gradient(180deg,rgba(5,27,96,0) 0%,#051b60 58.85%),#141414;
+}
+.develop{
+    font-size: clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem) !important;
+    font-family: 'urbanist-medium';
+    line-height: 48px;
+    font-weight: 400;
+}
+.contan{
+    padding-top: '15%';
+    padding-bottom: '15%';
+    color: 'white';
+    max-width:'1280px';
+}
+.content{
+    display: none;
+}
+.content.show{
+    display: block;
+}
+span.svg, span.svg.transform {
+    transition: all .4s cubic-bezier(1,1,1,1);
+}
+span.svg.transform {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.design{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #b9b9ba;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+span.svg {
+    /* background: hsla(0,0%,100%,.5); */
+    background: rgba(255,255,255,.1);
+    border-radius: 50%;
+    padding: 12px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+}
+.svgg{
+    transform: rotate(180deg);
+}
+
+.box {
+    transition: box-shadow .3s;
+    border: 1px solid #F4F4F4 !important;
+}
+.box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.boox{
+    transition: box-shadow .3s;
+    border: 1px solid #F4F4F4 !important;
+    width: 10.5rem;
+}
+.boox:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.fotrheading{
+    font-family: Urbanist-regular;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.ftrparagraph{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-family: 'Urbanist-regular';
+}
+.ftrparagraph1{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    font-family: 'Urbanist-regular';
+}
+.cordbdy{
+    padding: 48px !important;
+    min-height: 65vh;
+}
+.cordtitle{
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+.crdbody{
+    padding: 48px !important;
+    min-height: 65vh;
+    padding-top: 15px;
+}
+.crdtitle{
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+.cerdbody{
+    min-height: 30vh;
+}
+.coordbdy{
+    padding: 48px !important;
+    min-height: 80vh !important;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 768px)  {
+    .crdbody{
+        min-height: 90vh;
+    }
+    
+
+}
+@media only screen and (max-width: 767px) and (min-width: 320px)  {
+    .crdbody{
+        min-height: 40vh;
+        padding: 20px !important;
+    }
+    .crdtitle{
+        padding-top: 3% !important;
+        padding-bottom: 2%;
+    }
+    .cordbdy{
+        min-height: 40vh;
+        padding: 20px !important;
+    }
+    .cordtitle{
+        padding-top: 3% !important;
+        padding-bottom: 2%;
+    }
+    .boox{
+        width:100%;
+    }
+    .monitor{
+        width: 100%;
+    }
+    .cerdbody{
+        min-height: 25vh;
+    }
+
+}
