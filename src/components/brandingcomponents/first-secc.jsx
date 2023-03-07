@@ -1,6 +1,6 @@
 import React from "react";
 import Whitelogo from '../../assets/branding.png';
-// import Are from '../../assets/are.svg';
+import {ReactComponent as Are} from '../../assets/are.svg';
 function Firstsecc() {
     return(
         <div className="frrstsec">
@@ -14,7 +14,7 @@ function Firstsecc() {
                             </p>
                         </div>
                         <div style={{paddingTop: '3%', paddingBottom: '3%'}}>
-                            <button className="btn btn-success" style={{fontFamily: 'Urbanist', padding: '12px 24px', backgroundColor: '#65E4A1', color: 'black'}}>Free Consultation  </button>
+                            <button className="btn btn-success" style={{fontFamily: 'Urbanist', padding: '12px 24px', backgroundColor: '#65E4A1', color: 'black'}}>Free Consultation &nbsp;<Are/>  </button>
                         </div>
                     </div>
                     <div className="col-lg-6">
