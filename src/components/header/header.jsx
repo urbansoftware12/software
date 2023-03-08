@@ -18,9 +18,9 @@ function Header() {
                     <Nav.Link href="./branding" className='navlinq'>Branding</Nav.Link>
                     <Nav.Link href="#marketing" className='navlinq'>Marketing</Nav.Link>
                     <Nav.Link href="./service" className='navlinq'>Services</Nav.Link>
-                    <Nav.Link href="#faqs" className='navlinq'>FAQs</Nav.Link>
-                    <Nav.Link href="#whychooseus" className='navlinq'>Why Choose Us</Nav.Link>
-                    <Nav.Link href="#contactus" className='navlinq'>Contact Us</Nav.Link>
+                    <Nav.Link href="#insight" className='navlinq'>Insights</Nav.Link>
+                    <Nav.Link href="./whychooseus" className='navlinq'>Why Choose Us</Nav.Link>
+                    <Nav.Link href="./contactus" className='navlinq'>Contact Us</Nav.Link>
                   </Nav>
                   <Nav>
                     <Nav.Link href="#conultation">

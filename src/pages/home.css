@@ -4,14 +4,33 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.frstsac{
+    background-image: url(../assets/urbana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .frrstsec{
     background-image: url(../assets/herobg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.thrdsac{
+    background-image: url(../assets/contactformbg.png);
+    background-color: #141414;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid whitesmoke;
+}
 .thrdsec{
     background: linear-gradient(180deg,rgba(5,27,96,0) 0%,#051b60 58.85%),#141414;
+}
+.thrdseec{
+    background-image: url(../assets/scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .develop{
     font-size: clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem) !important;
@@ -113,6 +132,16 @@ span.svg {
 .coordbdy{
     padding: 48px !important;
     min-height: 80vh !important;
+}
+.frm{
+    border-color: #ECF2F6 !important;
+    font-family: Urbanist-regular !important;
+    font-size: 16px !important;
+    font-weight: 400;
+}
+.frm:focus{
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 10%) !important;
+    outline: 0;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 768px)  {
