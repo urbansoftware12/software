@@ -6,7 +6,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 function Header() {
     return (
       <div className="App">
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
+            <Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#141414'}} variant="dark" sticky='top'>
               <div className='container-fluid'>
                 <Navbar.Brand href="#home">
                   <img src={Whitelogo} width="90"height="42"className="d-inline-block align-top"alt="React Bootstrap logo"/>
@@ -16,14 +16,14 @@ function Header() {
                   <Nav className="me-auto">
                     <Nav.Link href='./' className='navlinq'>Home</Nav.Link>
                     <Nav.Link href="./branding" className='navlinq'>Branding</Nav.Link>
-                    <Nav.Link href="#marketing" className='navlinq'>Marketing</Nav.Link>
+                    <Nav.Link href="./marketing" className='navlinq'>Marketing</Nav.Link>
                     <Nav.Link href="./service" className='navlinq'>Services</Nav.Link>
-                    <Nav.Link href="#insight" className='navlinq'>Insights</Nav.Link>
+                    <Nav.Link href="./insight" className='navlinq'>Insights</Nav.Link>
                     <Nav.Link href="./whychooseus" className='navlinq'>Why Choose Us</Nav.Link>
                     <Nav.Link href="./contactus" className='navlinq'>Contact Us</Nav.Link>
                   </Nav>
                   <Nav>
-                    <Nav.Link href="#conultation">
+                    <Nav.Link href="./contactus">
                       <button className='btn btn-success' style={{fontFamily: 'Urbanist-medium',fontSize: '14px', backgroundColor: '#65E4A1', color: 'black'}}>Book a Free Consultation</button>
                     </Nav.Link>
                   </Nav>

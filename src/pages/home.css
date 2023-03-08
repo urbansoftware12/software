@@ -4,7 +4,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.frstsecs{
+    background-image: url(../assets/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .frstsac{
+    background-image: url(../assets/urbana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.frstsaac{
     background-image: url(../assets/urbana.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +33,7 @@
     background-color: #141414;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid rgba(255,255,255,.12);
 }
 .thrdsec{
     background: linear-gradient(180deg,rgba(5,27,96,0) 0%,#051b60 58.85%),#141414;
@@ -142,6 +154,39 @@ span.svg {
 .frm:focus{
     box-shadow: 0 0 0 1px rgb(0 0 0 / 10%) !important;
     outline: 0;
+}
+.foam{
+    border: none !important;
+    border-bottom: 0.5px solid #fff !important;
+    background-color: transparent !important;
+    font-size: 18px !important;
+    font-family: 'Urbanist-regular'!important;
+    border-radius: 0px !important;
+    padding: 16px 3px !important;
+    color: #fff !important;
+    
+}
+.foam:focus{
+    box-shadow: none !important;
+    outline: 0;
+}
+.txxt{
+    padding: .75rem .75rem !important;
+    background-color: #F0F0F0 !important;
+    border: #F0F0F0 !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+
+}
+.txat{
+    background-color: #F0F0F0 !important;
+    border: #F0F0F0 !important;
+    padding: .375rem .3rem !important;
+}
+.txat:focus{
+    box-shadow: none !important;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 768px)  {
