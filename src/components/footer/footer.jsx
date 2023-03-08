@@ -1,6 +1,9 @@
 import React from 'react';
-import './footer.css'
-import Linkimg from '../../assets/link.svg'
+import './footer.css';
+import {ReactComponent as Linnk} from '../../assets/linnk.svg';
+import {ReactComponent as Insta} from '../../assets/inst.svg';
+import {ReactComponent as Fbb} from '../../assets/fbb.svg';
+import {ReactComponent as Whatss} from '../../assets/whatss.svg';
 import {Row} from 'react-bootstrap';
 function Footer() {
     return (
@@ -42,12 +45,11 @@ function Footer() {
                 <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
                   <h1 className='fotrheading'>Connect</h1>
                   <div className='ftrparagraph mt-4'>
-                  <div style={{display: 'flex'}}>
-                    <div>
-                      <img src={Linkimg} width="40"height="30"alt="React logo"/>
-                    </div>
-                    <div><i class="fa-brands fa-instagram"></i></div>
-                    <div><i class="fa-brands fa-instagram"></i></div>
+                  <div style={{display: 'flex', justifyContent: 'space-between', width: '45%', marginBottom: '5%'}}>
+                    <div><Linnk/></div>
+                    <div><Insta/></div>
+                    <div><Fbb/></div>
+                    <div><Whatss/></div>
                   </div>
                   <p>+1 (559) 554-0082</p>
                   <p>admin@urbansoftware.tech</p>

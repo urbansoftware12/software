@@ -36,7 +36,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Web Development</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 Websites are often a user’s first point of contact with your business, therefore it is essential for it to leave a lasting impression. Our combined years of experience has equipped our team with the tools and knowledge to take your website to the next level
                                 </Card.Text>
                                 <div className="float-end mt-5">
@@ -52,7 +52,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Web Designs</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 We are web designers. Our job is to add value to your brand with professional web design services. Through quality design, we will transform your website into an elegant sales machine that communicates your message and converts visitors into customers.
                                 </Card.Text>
                                 <div className="float-end mt-5">
@@ -68,7 +68,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>UI/UX Designs</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 User interaction design and user experience services ensure that your project is easy to use and aligns to the needs of your users.
 
 <p>At Urban Software, our highly skilled team of UX and UI specialists are trained to find efficient and user-focused design solutions to ensure that your audience continues to return time and time again.</p>
@@ -88,7 +88,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Native App Development</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 Native apps offer a more exclusive user experience that takes advantage of the device’s specific internal features delivering seamless results every time.
 
 <p>We provide a mapped-out user journey, UI/UX services, a high-fidelity prototype and an exclusive 1-2 year development plan</p>
@@ -106,7 +106,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Digital Marketing</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 Go with a digital-first marketing strategy to engage your target audience with creative content that generates leads, drives traffic and builds brand awareness through the right channels.
 
 <p>Reach your tribe of influencers, decision makers and today’s leaders with a solid marketing strategy to drive your business goals.</p>
@@ -124,7 +124,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Creative Branding</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 Branding is the USP of any business and without it one cannot make their mark in the global market. We at UrbanMedia take great pride in being the most skilled branding agency in United States. With our 5+ years of experience in branding we have been able to help out more than 100 members (Customers).
                                 </Card.Text>
                                 <div className="float-end mt-5">
@@ -142,7 +142,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Email Marketing</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 We design and distribute beautiful emails. Our email marketing campaigns solve real business problems, make your readers happy, and generate positive emotional responses from your audiences.
                                 </Card.Text>
                                 <div className="float-end mt-5">
@@ -158,7 +158,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Content Marketing</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 We will help you address the questions and concerns that your audience has related your products or services with unique, informative, and entertaining content. At the same time, we apply the science of on-page SEO to ensure your content ranks well on search engines.
                                 </Card.Text>
                                 <div className="float-end mt-5">
@@ -174,7 +174,7 @@ Driven by the Top 1% of Tech Talent</h1>
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>SEO</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
+                                <Card.Text style={{fontSize: '16px', fontWeight: '400', lineHeight: '24px', fontFamily: 'Urbanist-regular'}}>
                                 At UrbanSoft, we’re here to put your St. Pete brand directly in front of internet searchers. Our team provides transparent search engine optimization services – we’ll direct your ideal customers straight to your website.
                                 </Card.Text>
                                 <div className="float-end mt-5">
