@@ -44,17 +44,37 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.cost{
+    font-size: clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem);
+    font-family: 'Urbanist-medium';
+    line-height: 58px !important; 
+    font-weight: 500; 
+    color: #000000;
+}
 .develop{
-    font-size: clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem) !important;
+    font-size: clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem);
     font-family: 'urbanist-medium';
-    line-height: 48px;
+    line-height: 68px;
     font-weight: 400;
 }
 .contan{
-    padding-top: '15%';
-    padding-bottom: '15%';
-    color: 'white';
-    max-width:'1280px';
+    padding-top: 12%;
+    padding-bottom: 12%;
+    color: white;
+    max-width:1280px;
+}
+.contant{
+    min-height: 240px;
+    max-height: 240px;
+    margin-bottom: 40px !important;
+}
+.hto{
+    font-size: clamp(1.1rem, 1rem + 0.5vw, 1.8rem);
+    /* font-size: 22px;  */
+    color: #000000;
+    line-height: 36px; 
+    font-weight: 400; 
+    font-family: 'Urbanist-regular';
 }
 .content{
     display: none;
@@ -221,6 +241,15 @@ span.svg {
     }
     .cerdbody{
         min-height: 25vh;
+    }
+    .coordbdy{
+        padding: 20px !important;
+    }
+    .develop{
+        line-height: 32px;
+    }
+    .cost{
+        line-height: 32px !important;
     }
 
 }

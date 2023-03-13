@@ -14,7 +14,7 @@ function Fourseec(){
             <div style={{color: '#34A9FF'}}>
                 <p style={{fontSize: '20px'}}>Skills & Expertise</p>
             </div>
-            <h1 style={{fontSize: 'clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem)', fontFamily: 'Urbanist-medium', lineHeight: '58px', fontWeight: '500', color: '#000000'}}>Why is UrbanSoft your Partner?</h1>
+            <h1 className="cost">Why is UrbanSoft your Partner?</h1>
         </div>
     </div>
     <div className="container-fluid" style={{maxWidth: '1280px',paddingBottom: '5%'}}>

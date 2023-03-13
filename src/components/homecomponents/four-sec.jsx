@@ -4,12 +4,12 @@ function Foursec ()
 {
     return(
         <div className="fursec">
-            <div className="container" style={{paddingTop: '6%'}}>
+            <div className="container-fluid" style={{paddingTop: '6%'}}>
                 <div style={{textAlign: 'center'}}>
                     <div style={{color: '#34A9FF'}}>
                         <p style={{fontSize: '20px'}}>Why UrbanSoft's</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem)'}}>Grow your Business & Company with Urban Software</h1>
+                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily: 'Urbanist-medium'}}>Grow your Business & Company with Urban Software</h1>
                 </div>
             </div>
             <div className="container-fluid" style={{maxWidth: '1280px'}}>
