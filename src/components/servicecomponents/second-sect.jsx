@@ -74,7 +74,7 @@ Driven by the Top 1% of Tech Talent</h1>
 <p>At Urban Software, our highly skilled team of UX and UI specialists are trained to find efficient and user-focused design solutions to ensure that your audience continues to return time and time again.</p>
                                 </Card.Text>
                                 <div className="float-end">
-                                    <a href="/" style={{textDecorationLine: 'none',color: '#34A9FF', fontFamily: 'Urbanist-medium'}}>Learn More</a>
+                                    <a href="/uxx" style={{textDecorationLine: 'none',color: '#34A9FF', fontFamily: 'Urbanist-medium'}}>Learn More</a>
                                 </div>
                             </Card.Body>
                         </Card>

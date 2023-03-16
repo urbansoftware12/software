@@ -8,6 +8,7 @@ import Choosepage from './pages/choose';
 import Contact from './pages/contact';
 import Insight from './pages/insight';
 import Marketingpage from './pages/marketing';
+import Uxx from './pages/uxx';
 const App = () => {
   return (
     <div className='roo-container'>
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/contactus' exact element={<Contact />} />
           <Route path='/insight' exact element={<Insight />} />
           <Route path='/marketing' exact element={<Marketingpage />} />
+          <Route path='/uxx' exact element={<Uxx/>}/>
         </Routes>
       </BrowserRouter>
     </div>

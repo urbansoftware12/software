@@ -2,7 +2,9 @@ import React from "react";
 import Paison from "../../assets/pasion.jpg";
 import Outsource from "../../assets/outsourced.jpg";
 import Communication from "../../assets/communication.jpg";
-import Light from "../../assets/light.svg";
+import Pen from "../../assets/pen.svg";
+import Blb from "../../assets/blb.svg";
+import Rta from "../../assets/rta.svg";
 function Secondsecs(){
     return(
         <div className="scndsecs">
@@ -15,7 +17,7 @@ function Secondsecs(){
                     </div>
                     <div className="offset-lg-1 col-lg-4">
                         <div className="text-center mt-5 mb-5">
-                            <img src={Light} alt=''/>
+                            <img src={Pen} width='52.42' height='52.42' alt=''/>
                         </div>
                         <div className="text-center">
                             <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '20px', fontWeight: '500'}}>Marketing Strategy</h2>
@@ -30,7 +32,7 @@ function Secondsecs(){
                 <div className="row" style={{padding: '0px'}}>
                 <div className="offset-lg-1 col-lg-4">
                         <div className="text-center mt-5 mb-5">
-                            <img src={Light} alt=''/>
+                            <img src={Blb} width='52.42' height='52.42' alt=''/>
                         </div>
                         <div className="text-center">
                             <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '20px', fontWeight: '500'}}>Outsourced Marketing</h2>
@@ -56,7 +58,7 @@ function Secondsecs(){
                     </div>
                     <div className="offset-lg-1 col-lg-4">
                         <div className="text-center mt-5 mb-5">
-                            <img src={Light} alt=''/>
+                            <img src={Rta} width='52.42' height='52.42'  alt=''/>
                         </div>
                         <div className="text-center">
                             <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '20px', fontWeight: '500'}}>Marketing Communication</h2>

@@ -57,6 +57,19 @@
     line-height: 68px;
     font-weight: 400;
 }
+.round{
+    color: #34A9FF !important;
+    font-size: 22px;
+    font-family: 'Urbanist Medium' !important;
+    line-height: 22px !important;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #34A9FF;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
 .contan{
     padding-top: 12%;
     padding-bottom: 12%;

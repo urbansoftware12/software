@@ -3,7 +3,7 @@ import {ReactComponent as Are} from '../../assets/are.svg';
 function Secondsac(){
     return(
         <div className="scndsac">
-            <div className="container-fluid" style={{maxWidth: '1280px', padding: '7% 0%'}}>
+            <div className="container-fluid" style={{maxWidth: '1280px', paddingTop: '7%', paddingBottom: '7%'}}>
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="mt-4">

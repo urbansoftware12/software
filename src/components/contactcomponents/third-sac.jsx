@@ -3,7 +3,7 @@ import {ReactComponent as Mbbl} from '../../assets/mbbl.svg';
 function Thirdsac(){
     return(
         <div className="thrdsac">
-            <div className="container-fluid" style={{maxWidth: '1280px', padding: '8% 0%'}}>
+            <div className="container-fluid" style={{maxWidth: '1280px', paddingTop: '8%', paddingBottom: '8%'}}>
                 <div className="row">
                     <div className="col-lg-3">
                         <div className="" style={{marginTop: '220px'}}>
