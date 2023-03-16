@@ -45,14 +45,14 @@
     background-size: cover;
 }
 .cost{
-    font-size: clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem);
+    font-size: clamp(1.625rem, 1.1143rem + 2.5536vw, 5.2rem);
     font-family: 'Urbanist-medium';
     line-height: 58px !important; 
     font-weight: 500; 
     color: #000000;
 }
 .develop{
-    font-size: clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem);
+    font-size: clamp(1.625rem, 1.1143rem + 2.5536vw, 5.2rem);
     font-family: 'urbanist-medium';
     line-height: 68px;
     font-weight: 400;
@@ -83,7 +83,6 @@
 }
 .hto{
     font-size: clamp(1.1rem, 1rem + 0.5vw, 1.8rem);
-    /* font-size: 22px;  */
     color: #000000;
     line-height: 36px; 
     font-weight: 400; 
@@ -138,6 +137,9 @@ span.svg {
 }
 .boox:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.poses{
+    text-align: center; font-size: 20px; line-height: 36px; font-weight: 400; font-family: 'Urbanist-regular'; 
 }
 .fotrheading{
     font-family: Urbanist-regular;
@@ -263,6 +265,13 @@ span.svg {
     }
     .cost{
         line-height: 32px !important;
+    }
+    .hto{
+        line-height: 24px;
+    }
+    .poses{
+        line-height: 24px;
+        font-size: 16px;
     }
 
 }

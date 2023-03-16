@@ -1,6 +1,6 @@
 import React from 'react';
 import './hader.css'
-import Whitelogo from '../../assets/urban_software_white.svg';
+import Whitelogo from '../../assets/urbanblack.svg';
 import {Navbar, Nav} from 'react-bootstrap';
 function Hader() {
     return (
@@ -23,7 +23,7 @@ function Hader() {
                   </Nav>
                   <Nav>
                     <Nav.Link href="./contactus">
-                      <button className='btn btn-success' style={{fontFamily: 'Urbanist-medium',fontSize: '14px', backgroundColor: '#65E4A1', color: 'black',border: 'none'}}>Book a Free Consultation</button>
+                      <button className='btn' style={{fontFamily: 'Urbanist-medium',fontSize: '14px', backgroundColor: '#65E4A1', color: 'black',border: 'none',padding: '8px 20px', borderRadius: '3px'}}>Book a Free Consultation</button>
                     </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>

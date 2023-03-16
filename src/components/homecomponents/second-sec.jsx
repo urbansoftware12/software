@@ -33,7 +33,7 @@ function Secondsec ()
                     <div style={{color: '#34A9FF'}}>
                         <p style={{fontSize: '20px', fontFamily:'Urbanist-medium'}}>Urban Web Services</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily:'Urbanist-medium'}}>Types of Web Development Services</h1>
+                    <h1 style={{fontSize: 'clamp(1.625rem, 1.1143rem + 2.5536vw, 5.2rem)', fontFamily:'Urbanist-medium'}}>Types of Web Development Services</h1>
                 </div>
             </div>
             <div className="container-fluid" style={{maxWidth: '1280px'}}>
@@ -45,8 +45,8 @@ function Secondsec ()
                                 <Card.Title className="cordtitle">
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Web Application Development Services</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '16px'}}>
-                                From design to integration to maintenance, we offer full-cycle web application development services. We build apps that are secure, scalable, fast, and work well across all devices and platforms.
+                                <Card.Text style={{fontSize: '16px', fontFamily: 'Urbanist-regular'}}>
+                                    From design to integration to maintenance, we offer full-cycle web application development services. We build apps that are secure, scalable, fast, and work well across all devices and platforms.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -125,10 +125,10 @@ function Secondsec ()
                     <div style={{color: '#34A9FF', paddingTop: '7%'}}>
                         <p style={{fontSize: '20px', fontFamily:'Urbanist-medium'}}>Urban Tech</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily: 'Urbanist-medium'}}>Our Technologies</h1>
+                    <h1 style={{fontSize: 'clamp(1.625rem, 1.1143rem + 2.5536vw, 5.2rem)', fontFamily: 'Urbanist-medium'}}>Our Technologies</h1>
                     <div className="row offset-md-2 col-md-8" style={{textAlign: 'center', fontSize: '20px', lineHeight: '36px', fontWeight: '400', fontFamily: 'Urbanist-regular', paddingTop: '1%',paddingBottom: '1%'}}>
                     <p>Our software engineers have expertise in all the technologies needed to deliver
-                    comprehensive web developments services for companies across industries.</p>
+                        comprehensive web developments services for companies across industries.</p>
                 </div>
                 </div>
             </div>
@@ -213,8 +213,8 @@ function Secondsec ()
                     <div style={{color: '#34A9FF', paddingTop: '7%'}}>
                         <p style={{fontSize: '20px', fontFamily: 'Urbanist-regular'}}>Urban Process</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily: 'Urbanist-regular'}}>Our Web Development Process</h1>
-                    <div className="" style={{textAlign: 'center', fontSize: '20px', lineHeight: '36px', fontWeight: '400', fontFamily: 'Urbanist-regular', paddingTop: '1%',paddingBottom: '1%'}}>
+                    <h1 style={{fontSize: 'clamp(1.625rem, 1.1143rem + 2.5536vw, 5.2rem)', fontFamily: 'Urbanist-regular'}}>Our Web Development Process</h1>
+                    <div className="poses" style={{paddingTop: '1%',paddingBottom: '1%'}}>
                         <p>As we have been delivering web development services for over a decade, our process is clear,effective and enables timely delivery of your web solution. From comprehensive requirementgathering to ensuring continuous operation of your web solution after deployment,we have everything covered for you.</p>
                     </div>
                 </div>
@@ -226,7 +226,7 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h6 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Research</h6>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
                                     Research Consultation & Requirement Gathering,
                                 </Card.Text>
                             </Card.Body>
@@ -239,8 +239,8 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Design</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
-                                Product Architecture & Design, Prototype, MVP & Wireframes
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
+                                    Product Architecture & Design, Prototype, MVP & Wireframes
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -252,8 +252,8 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Development</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
-                                Functional Implementation, Software Coding, & Optimization
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
+                                    Functional Implementation, Software Coding, & Optimization
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -265,8 +265,8 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Testing</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
-                                Quality Assurance, Trouble-Shooting, & Testing
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
+                                    Quality Assurance, Trouble-Shooting, & Testing
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -278,8 +278,8 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Deployment</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
-                                Launch, Beta Live, & Live
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
+                                    Launch, Beta Live, & Live
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -291,8 +291,8 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Evaluation</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
-                                Performance Evaluation, & Analytics Implementation
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
+                                    Performance Evaluation, & Analytics Implementation
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -304,7 +304,7 @@ function Secondsec ()
                                 <Card.Title style={{paddingTop: '6%'}}>
                                     <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '16px', fontWeight: '500', lineHeight: '24px'}}>Maintenance</h2>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '13px'}}>
+                                <Card.Text style={{fontSize: '13px', fontFamily: 'Urbanist-regular'}}>
                                     Monitoring, Feedback, Analysis, & Complete Support
                                 </Card.Text>
                             </Card.Body>

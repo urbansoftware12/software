@@ -3,7 +3,7 @@ import Sftwr from "../../assets/sftwr.png"
 function Firstseec() {
     return(
         <div className="frstseec">
-            <div className="container-fluid" style={{maxWidth: '1280px', padding: '7% 0%'}}>
+            <div className="container-fluid" style={{maxWidth: '1280px', paddingTop: '7%' , paddingBottom: '7%'}}>
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="mt-4">

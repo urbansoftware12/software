@@ -9,6 +9,7 @@ import Contact from './pages/contact';
 import Insight from './pages/insight';
 import Marketingpage from './pages/marketing';
 import Uxx from './pages/uxx';
+import Privacypolic from './pages/privacypolic';
 const App = () => {
   return (
     <div className='roo-container'>
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/insight' exact element={<Insight />} />
           <Route path='/marketing' exact element={<Marketingpage />} />
           <Route path='/uxx' exact element={<Uxx/>}/>
+          <Route path='/privacypolic' exact element={<Privacypolic/>}/>
         </Routes>
       </BrowserRouter>
     </div>
