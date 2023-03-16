@@ -23,7 +23,7 @@ function Header() {
                   </Nav>
                   <Nav>
                     <Nav.Link href="./contactus">
-                      <button className='btn btn-success' style={{fontFamily: 'Urbanist-medium',fontSize: '14px', backgroundColor: '#65E4A1', color: 'black'}}>Book a Free Consultation</button>
+                      <button className='btn' style={{fontFamily: 'Urbanist-medium',fontSize: '14px', backgroundColor: '#65E4A1', color: 'black', padding: '8px 20px', borderRadius: '3px'}}>Book a Free Consultation</button>
                     </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
