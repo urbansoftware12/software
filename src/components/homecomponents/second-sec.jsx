@@ -24,16 +24,16 @@ function Secondsec ()
     return(
         <div className="scndsec" >
             <div className="container" style={{paddingTop: '7%',paddingBottom: '7%'}}>
-                <div style={{textAlign: 'center', fontSize: '22px', lineHeight: '36px', fontWeight: '400', fontFamily: 'Urbanist-regular'}}>
-                    <p>Websites are often a user’s first point of contact with your business, therefore it is essential for it to leave a lasting impression. Our combined years of experience has equipped our team with the tools and knowledge to take your website to the next level.</p>
+                <div className="text-center">
+                    <h2 className="hto">Websites are often a user’s first point of contact with your business, therefore it is essential for it to leave a lasting impression. Our combined years of experience has equipped our team with the tools and knowledge to take your website to the next level.</h2>
                 </div>
             </div>
             <div className="container">
                 <div style={{textAlign: 'center'}}>
                     <div style={{color: '#34A9FF'}}>
-                        <p style={{fontSize: '20px'}}>Urban Web Services</p>
+                        <p style={{fontSize: '20px', fontFamily:'Urbanist-medium'}}>Urban Web Services</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem)'}}>Types of Web Development Services</h1>
+                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily:'Urbanist-medium'}}>Types of Web Development Services</h1>
                 </div>
             </div>
             <div className="container-fluid" style={{maxWidth: '1280px'}}>
@@ -123,9 +123,9 @@ function Secondsec ()
             <div className="container">
                 <div style={{textAlign: 'center'}}>
                     <div style={{color: '#34A9FF', paddingTop: '7%'}}>
-                        <p style={{fontSize: '20px'}}>Urban Tech</p>
+                        <p style={{fontSize: '20px', fontFamily:'Urbanist-medium'}}>Urban Tech</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem)'}}>Our Technologies</h1>
+                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily: 'Urbanist-medium'}}>Our Technologies</h1>
                     <div className="row offset-md-2 col-md-8" style={{textAlign: 'center', fontSize: '20px', lineHeight: '36px', fontWeight: '400', fontFamily: 'Urbanist-regular', paddingTop: '1%',paddingBottom: '1%'}}>
                     <p>Our software engineers have expertise in all the technologies needed to deliver
                     comprehensive web developments services for companies across industries.</p>
@@ -213,7 +213,7 @@ function Secondsec ()
                     <div style={{color: '#34A9FF', paddingTop: '7%'}}>
                         <p style={{fontSize: '20px', fontFamily: 'Urbanist-regular'}}>Urban Process</p>
                     </div>
-                    <h1 style={{fontSize: 'clamp(1.1rem, 0.8286rem + 1.3571vw, 3rem)', fontFamily: 'Urbanist-regular'}}>Our Web Development Process</h1>
+                    <h1 style={{fontSize: 'clamp(1.1rem, 0.5143rem + 2.9286vw, 5.2rem)', fontFamily: 'Urbanist-regular'}}>Our Web Development Process</h1>
                     <div className="" style={{textAlign: 'center', fontSize: '20px', lineHeight: '36px', fontWeight: '400', fontFamily: 'Urbanist-regular', paddingTop: '1%',paddingBottom: '1%'}}>
                         <p>As we have been delivering web development services for over a decade, our process is clear,effective and enables timely delivery of your web solution. From comprehensive requirementgathering to ensuring continuous operation of your web solution after deployment,we have everything covered for you.</p>
                     </div>

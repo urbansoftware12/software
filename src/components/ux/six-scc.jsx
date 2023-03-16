@@ -1,10 +1,9 @@
 import React from "react";
 import { Row, Card } from "react-bootstrap";
-function Foursec ()
-{
+function Sixscc(){
     return(
-        <div className="fursec">
-            <div className="container-fluid" style={{paddingTop: '6%'}}>
+        <div className="sxcc">
+            <div className="container-fluid" style={{paddingTop: '10%'}}>
                 <div style={{textAlign: 'center'}}>
                     <div style={{color: '#34A9FF'}}>
                         <p style={{fontSize: '20px'}}>Why UrbanSoft's</p>
@@ -55,4 +54,4 @@ function Foursec ()
         </div>
     )
 }
-export default Foursec;
+export default Sixscc;
