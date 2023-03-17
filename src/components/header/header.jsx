@@ -6,7 +6,7 @@ function Header() {
     return (
       <div className="App">
             <Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#141414'}} variant="dark" sticky='top'>
-              <div className='container-fluid'>
+              <div className='container-fluid' style={{maxWidth: '1280px'}}>
                 <Navbar.Brand href="#home">
                   <img src={Whitelogo} width="90"height="42"className="d-inline-block align-top"alt="React Bootstrap logo"/>
                 </Navbar.Brand>

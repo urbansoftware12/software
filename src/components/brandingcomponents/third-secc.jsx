@@ -1,5 +1,6 @@
 import React from "react";
 import Accordianbranding from "./accordianbranding";
+import { Button } from "bootstrap";
 function Thirdsecc ()
 {
     return(
@@ -8,10 +9,10 @@ function Thirdsecc ()
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-6">
                         <div>
-                            <p>Got a Question?</p>
-                            <h1 className="develop">Frequently Asked Question</h1>
-                            <div style={{paddingTop: '3%', paddingBottom: '3%'}}>
-                                <button className="btn" style={{fontFamily: 'Urbanist', paddingTop: '2.5%', paddingBottom: '2.5%', paddingLeft: '5%', paddingRight: "5%", backgroundColor: '#65E4A1', borderRadius: '3px'}}>Get a Free Consultation</button>
+                            <h2 className="got">Got a Question?</h2>
+                            <h1 className="ask">Frequently Asked Question</h1>
+                            <div className="botn" style={{marginTop: '20px'}}>
+                                <a href="/" className="bton" role={Button} >Get a Free Consultation</a>
                             </div>
                         </div>
                     </div>
