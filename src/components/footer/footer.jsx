@@ -5,55 +5,86 @@ import {ReactComponent as Insta} from '../../assets/inst.svg';
 import {ReactComponent as Fbb} from '../../assets/fbb.svg';
 import {ReactComponent as Whatss} from '../../assets/whatss.svg';
 import {Row} from 'react-bootstrap';
-function Footer() {
-    return (
-      <div className="App">
-        <div style={{backgroundColor: '#141414'}}>
+function Footer()
+{
+  return (
+    <div className="App">
+      <div style={{backgroundColor: '#141414'}}>
         <div className='container-fluid' style={{maxWidth: '1280px'}}>
-                <div style={{paddingTop: '5%',paddingBottom: '3%',color: 'white',textAlign: 'left'}}>
-                    <h1 className='design'>Design.Built.Launch</h1>
-                </div>
-              <Row>
-                <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
-                  <h1 className='fotrheading'>General</h1>
-                  <div className='ftrparagraph mt-4'>
-                    <p>Home</p>
-                    <p>Services</p>
-                    <p>why Choose Us</p>
-                  </div>
+          <div style={{paddingTop: '5%',paddingBottom: '3%',color: 'white',textAlign: 'left'}}>
+            <h1 className='design'>Design.Built.Launch</h1>
+          </div>
+          <Row>
+            <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
+              <div style={{marginBottom: '20px'}}>
+                <h1 className='fotrheading'>General</h1>
+              </div>
+              <div style={{marginBottom: '10px'}}>
+                <a className='ftrparagraph' href="/">Home</a>
+              </div>
+              <div style={{marginBottom: '10px'}}>
+                <a href="/" className='ftrparagraph'>Services</a>
+              </div>
+              <div style={{marginBottom: '10px'}}>
+                <a className='ftrparagraph' href="/">why Choose Us</a>
+              </div>
+            </div>
+            <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
+              <div style={{marginBottom: '20px'}}>
+                <h1 className='fotrheading'>Services</h1>
+              </div>
                   
+              <div style={{marginBottom: '10px'}}>
+                <a className='ftrparagraph' href="/">Web Development</a>
+            </div>
+            <div style={{marginBottom: '10px'}}>
+                <a href="/" className='ftrparagraph'>UI/UX Design</a>
+            </div>
+            <div style={{marginBottom: '10px'}}>
+                <a className='ftrparagraph' href="/">Digital Marketing</a>
+            </div>
+            <div style={{marginBottom: '10px'}}>
+                <a className='ftrparagraph' href="/">Branding</a>
+            </div>
+            <div style={{marginBottom: '10px'}}>
+                <a href="/" className='ftrparagraph'>Mobile App Development</a>
+            </div>
                 </div>
                 <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
-                  <h1 className='fotrheading'>Services</h1>
-                  <div className='ftrparagraph mt-4'>
-                    <p>Web Development</p>
-                    <p>UI/UX Design</p>
-                    <p>Digital Marketing</p>
-                    <p>Branding</p>
-                    <p>Mobile App Development</p>
-                  </div>
-                </div>
-                <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
+                <div style={{marginBottom: '20px'}}>
                   <h1 className='fotrheading'>Location</h1>
-                  <div className='ftrparagraph mt-4'>
-                    <p>Urban Software & Web Development</p>
-                    <p>500 4th St NW</p>
-                    <p>Suite 102 PMB 1958</p>
-                    <p>Albuquerque. NM 87102</p>
+                </div>
+                  <div >
+                    <h2 className='fotrparagraph'>Urban Software & Web Development <br /> 500 4th St NW <br /> Suite 102 PMB 1958 <br /> Albuquerque. NM 87102</h2>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
-                  <h1 className='fotrheading'>Connect</h1>
-                  <div className='ftrparagraph mt-4'>
-                  <div style={{display: 'flex', justifyContent: 'space-between', width: '45%', marginBottom: '5%'}}>
-                    <div><Linnk/></div>
-                    <div><Insta/></div>
-                    <div><Fbb/></div>
-                    <div><Whatss/></div>
+                <div style={{marginBottom: '20px'}}>
+                <h1 className='fotrheading'>Connect</h1>
+                </div>
+                  
+                  <div style={{display: 'flex', justifyContent: 'space-between', width: '45%', marginBottom: '10px'}}>
+                    <div>
+                      <a href="/" className='ftrparagraph'><Linnk/></a>
+                    </div>
+                    <div>
+                      <a href="/" className='ftrparagraph'><Insta/></a>
+                    </div>
+                    <div>
+                      <a href="/" className='ftrparagraph'><Fbb/></a>
+                    </div>
+                    <div>
+                      <a href="/" className='ftrparagraph'><Whatss/></a>
+                    </div>
                   </div>
-                  <p>+1 (559) 554-0082</p>
-                  <p>admin@urbansoftware.tech</p>
-                  <p>www.urbansoftware.tech</p>
+                  <div style={{marginBottom: '10px'}}>
+                    <a href="/" className='ftrparagraph'>+1 (559) 554-0082</a>
+                  </div>
+                  <div style={{marginBottom: '10px'}}>
+                    <a href="/" className='ftrparagraph'>admin@urbansoftware.tech</a>
+                  </div>
+                  <div style={{marginBottom: '10px'}}>
+                    <a href="/" className='ftrparagraph'>www.urbansoftware.tech</a>
                   </div>
                   
                   
@@ -70,4 +101,4 @@ function Footer() {
       </div>
     );
   }
-  export default Footer;
+export default Footer;

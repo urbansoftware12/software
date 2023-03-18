@@ -15,8 +15,8 @@ function Accordianservice() {
             <div className="accordian">
                 {data.map((item, i) => (
                     <div className="item">
-                        <div className='title' style={{display: 'flex',justifyContent:'space-between',borderTop: '1px solid rgba(255,255,255,.12)', paddingTop: '25px', paddingBottom: '25px', alignItems: 'baseline'}} onClick={() => toggle(i)}>
-                            <h2 style={{fontFamily: 'Urbanist-regular', fontSize: '18px'}}>{item.question}</h2>
+                        <div className='title acodttl' onClick={() => toggle(i)}>
+                            <h2 className='quest'>{item.question}</h2>
                             <span className={selected === i ? 'svg transform' : 'svg'}>
                                 <svg className='svgg' width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.2657 0.850586C0.312684 0.850586 -0.19666 1.97304 0.430911 2.69023L5.33092 8.29028C5.9496 8.99735 7.04961 8.99735 7.6683 8.29028L12.5684 2.69023C13.1958 1.97304 12.6866 0.850586 11.7335 0.850586H1.2657Z" fill="white"/>
@@ -24,7 +24,7 @@ function Accordianservice() {
                             </span>
                         </div>
                         <div className={selected === i ? 'content show' : 'content'}>
-                            <p style={{fontFamily: 'Urbanist-regular', fontSize: '14px'}}>{item.answer}</p>
+                            <p className='ans'>{item.answer}</p>
                         </div>
                     </div>
                 ))}
