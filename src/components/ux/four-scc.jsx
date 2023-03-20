@@ -7,7 +7,7 @@ function Fourscc(){
                 <div className="text-center">
                     <h1 className="develop">UX Design Process</h1>
                 </div>
-                <div className="mt-5" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'baseline'}}>
+                <div className="mt-5" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'baseline', flexWrap: 'wrap'}}>
                     <div className="text-center" style={{display:'block'}}>
                         <div style={{display: 'flex', justifyContent: 'center'}}>
                         <div className="round">1</div>
@@ -62,7 +62,7 @@ function Fourscc(){
                 <div className="text-center mt-5">
                     <h1 className="develop">UI Design Process</h1>
                 </div>
-                <div className="mt-5" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'baseline'}}>
+                <div className="mt-5" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'baseline', flexWrap:'wrap'}}>
                     <div className="text-center" style={{display:'block'}}>
                         <div style={{display: 'flex', justifyContent: 'center'}}>
                         <div className="round">1</div>

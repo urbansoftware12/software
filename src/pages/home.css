@@ -45,11 +45,12 @@
     background-size: cover;
 }
 .cost{
-    font-size: clamp(1.625rem, 1.1143rem + 2.5536vw, 5.2rem);
-    font-family: 'Urbanist-medium';
-    line-height: 58px !important; 
-    font-weight: 500; 
     color: #000000;
+    font-family: "Urbanist Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    margin-bottom: 20px;
 }
 .developweb{
     font-size: 48px;
@@ -113,6 +114,19 @@
     min-height: 240px;
     max-height: 240px;
     margin-bottom: 40px !important;
+}
+.contnt{
+    min-height: 240px;
+    max-height: 240px;
+    margin-bottom: 40px !important;
+}
+.contont{
+    color: #000000;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px !important;
 }
 .hto{
     font-size: 22px;
@@ -219,7 +233,9 @@ span.svg {
     text-align: center;
 }
 .mnhght{
-    min-height: 400px;
+    min-height: 400px !important;
+    padding: 20px 30px !important;
+    margin: 10px 20px !important;
 }
 .cordbdy{
     padding: 20px 30px !important;
@@ -236,6 +252,13 @@ span.svg {
     line-height: 24px;
     min-height: 160px;
     max-height: 160px;
+}
+.cordztxt{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 .sftw{
     color: #000000;
@@ -298,7 +321,7 @@ span.svg {
 }
 .const{
     padding-top: 180px;
-     padding-bottom: 150px;
+    padding-bottom: 150px;
 }
 .quest{
     font-family: "Urbanist Regular";
@@ -331,6 +354,13 @@ span.svg {
     line-height: 24px;
     min-height: 260px;
     max-height: 260px;
+}
+.crudtxt{
+    color: #000000;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 .innovat{
     color: #FFFFFF;
@@ -375,11 +405,106 @@ span.svg {
 .cretepara{
     text-align: justify;
     color: #000000;
-    font-family: "Hauora Regular", Sans-serif;
+    font-family: "Urbanist Regular";
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
+.serve{
+    color: #000000;
+    font-family: "Urbanist Medium";
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.servepara{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 16px;
+    font-weight: 400;
+}
+.serveli{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 16px;
+    line-height: 44px;
+}
+.inovatbrand{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.inovatbrnd{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.inovatbrandz{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.mrktfct{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.pasoimg{
+    width: 100%;
+}
+.stratgy{
+    color: #000000;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.stratgypara{
+    text-align: center;
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.comuni{
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+.contctsftwr{
+    color: #000000;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+}
+.contctlink{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+}
+.phone{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.letpad{
+    padding: 100px 50px 100px 50px;
+}
+.filfom{
+    color: #FFFFFF;
+    font-family: "Urbanist Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.nwtown{
+    padding-top: 80px; padding-bottom: 80px;
+}
+
 .crdtitle{
     padding-top: 6%;
     padding-bottom: 2%;
@@ -407,11 +532,167 @@ span.svg {
     border-radius: 0px !important;
     padding: 16px 3px !important;
     color: #fff !important;
+    line-height: 163.35% !important;
     
 }
 .foam:focus{
     box-shadow: none !important;
     outline: 0;
+}
+.fombtn{
+    background-color: #65e4a1 !important;
+    border-radius: 2px !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #000000 !important;
+    padding: 15px !important;
+    font-family: "Urbanist Regular";
+    width: 100%;
+    border:none;
+}
+.ftrmenu{
+    margin-bottom: 10px;
+}
+.whowe{
+    color: #34A9FF;
+    font-family: "Urbanist Medium";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.whopara{
+    color: #000000;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.imgskil{
+    width: 50px !important;
+    max-height: 50px !important;
+    height: 50px !important;
+}
+.skilparagrph{
+    color: #34A9FF;
+    font-family: "Urbanist Medium";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.exprnce{
+    color: #000000;
+    font-family: "Urbanist Medium";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.skil{
+    margin-top: 50px !important;
+}
+.gobal{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.gobalhading{
+    color: #FFFFFF;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+}
+.ycard{
+    padding: 20px 30px;
+    margin: 10px 20px;
+    min-height: 500px;
+}
+.qualify{
+    color: #000000;
+    font-family: "Urbanist Medium";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.qualifypara{
+    color: #000000;
+    font-family: "Urbanist Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.ycrd{
+    margin-top: 20px !important;
+}
+.whyccrd{
+    padding-left: inherit !important;
+    padding-right: inherit !important;
+}
+.sublink{
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    fill: #34A9FF;
+    color: #34A9FF;
+    text-decoration: none;
+}
+.delop{
+    color: #FFFFFF;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.conn{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.dose{
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.sevral{
+    color: #000000;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.moore{
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #104FF5;
+    text-decoration: none;
+}
+.vctor{
+    width: 100%;
+    height: 225px;
+}
+.pdding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.fusion{
+    color: #000000;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.mbldsign{
+    color: #000000;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
 .txxt{
     padding: .75rem .75rem !important;
@@ -441,6 +722,13 @@ span.svg {
     
 
 }
+@media only screen and (max-width: 1024px) and (min-width: 991px)  {
+    .ycrd{
+        width: 50% !important;
+    }
+    
+
+}
 
 @media only screen and (max-width: 1070px) and (min-width: 947px)  {
     .cordtxt{
@@ -455,6 +743,7 @@ span.svg {
     }
 
 }
+
 @media only screen and (max-width: 946px) and (min-width: 866px)  {
     .cordbdy{
         padding: 20px !important;
@@ -515,6 +804,7 @@ span.svg {
         line-height: 32px;
     }
     .cost{
+        font-size: 26px;
         line-height: 32px !important;
     }
     
@@ -555,18 +845,27 @@ span.svg {
         min-height: inherit;
         max-height: inherit;
     }
+    .cordztxt{
+        font-size: 15px;
+        line-height: 25px;
+    }
     .crdtxt{
         font-size: 15px;
         line-height: 25px;
         min-height: inherit;
         max-height: inherit;
     }
+    .crudtxt{
+        font-size: 15px;
+        line-height: 25px;
+    }
     .cordbdy{
         padding: 20px !important;
         margin: 0px;
     }
     .mnhght{
-        min-height: inherit;
+        min-height: inherit !important;
+        padding: 15px 10px !important;
     }
     .sftw{
         color: #000000;
@@ -577,6 +876,11 @@ span.svg {
     }
     .dsply{
         width: 33.33%;
+        display: block;
+        text-align: center;
+    }
+    .desply{
+        width: 50% !important;
         display: block;
         text-align: center;
     }
@@ -627,5 +931,125 @@ span.svg {
         font-size: 14px;
         line-height: 20px;
     }
+    .serve{
+        font-size: 26px;
+    }
+    .inovatbrand{
+        padding-top: 130px;
+        padding-bottom: 0px;
+    }
+    .flxrevrse{
+        flex-wrap: wrap-reverse !important;
+    }
+    .pasoimg{
+        height: 300px;
+    }
+    .comuni{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .contctsftwr{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .contctlink{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .phone{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .letpad{
+        padding: 50px 10px 50px 10px;
+    }
+    .inovatbrandz{
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    .nwtown{
+        padding-top: 50px; padding-bottom: 0px;
+    }
+    .ftrmenu{
+        margin-bottom: 15px;
+    }
+    .inovatbrnd{
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .whowe{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .whopara{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .imgskil{
+        width: 40px !important;
+        max-height: 40px !important;
+        height: 40px !important;
+    }
+    .skil{
+        width: 50% !important;
+        margin-bottom: 20px;
+        margin-top: 0px !important;
+    }
+    .skilparagrph{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .exprnce{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .gobal{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .gobalhading{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .ycard{
+        padding: 15px 10px;
+        min-height: inherit;
+    }
+    .qualify{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .qualifypara{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contont{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .delop{
+        font-size: 26px;
+    line-height: 35px;
+    }
+    .conn{
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+    .dose{
+        font-size: 16px;
+    }
+    .vctor{
+        width: 100%;
+        height: 225px;
+    }
+    .pdding{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .fusion{
+        font-size: 26px;
+        line-height: 32px;
+    }
 
 }
+

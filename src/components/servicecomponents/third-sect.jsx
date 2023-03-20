@@ -5,7 +5,7 @@ function Thirdsect ()
 {
     return(
         <div className="thrdsec" >
-            <div className="container-fluid contan" style={{paddingTop: '7%', paddingBottom: '7%', color: 'white', maxWidth: '1280px'}}>
+            <div className="container-fluid contan const" style={{color: 'white', maxWidth: '1280px'}}>
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-6">
                         <div>

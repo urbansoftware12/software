@@ -40,9 +40,9 @@ function Secondsec ()
             </div>
             <div className="container-fluid" style={{maxWidth: '1280px'}}>
                 <Row style={{marginTop: '18px'}}>
-                    <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mnhght">
-                        <Card className="box">
-                            <Card.Body className="cordbdy">
+                    <div className="col-lg-4 col-md-6 ycrd whyccrd">
+                        <Card className="box mnhght">
+                            <Card.Body style={{padding: '10px'}}>
                                 <div style={{marginBottom: '20px'}}>
                                     <img src={Whitelogoone} className="skillimg" alt="" srcset="" />
                                 </div>
@@ -50,14 +50,14 @@ function Secondsec ()
                                     <h2 className="wbapp">Web Application Development Services</h2>
                                 </div>
                                 <div>
-                                    <p className="cordtxt">From design to integration to maintenance, we offer full-cycle web application development services. We build apps that are secure, scalable, fast, and work well across all devices and platforms.</p>
+                                    <p className="cordztxt">From design to integration to maintenance, we offer full-cycle web application development services. We build apps that are secure, scalable, fast, and work well across all devices and platforms.</p>
                                 </div>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mnhght">
-                        <Card className="box">
-                            <Card.Body className="cordbdy">
+                    <div className="col-lg-4 col-md-6 ycrd whyccrd">
+                        <Card className="box mnhght">
+                            <Card.Body style={{padding: '10px'}}>
                                 <div style={{marginBottom: '20px'}}>
                                     <img src={Whitelogotwo} className="skillimg" alt="" srcset="" />
                                 </div>
@@ -65,16 +65,16 @@ function Secondsec ()
                                     <h2 className="wbapp">E-commerce Web Development Services</h2>
                                 </div>
                                 <div>
-                                <p className="cordtxt">
+                                <p className="cordztxt">
                                     Build an online store with seamless and user-friendly experience, the right extensions, and reliable integration with your other processes. Our ecommerce web development services include building full-scale ecommerce platforms.
                                 </p>
                                 </div>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mnhght">
-                        <Card className="box">
-                            <Card.Body className="cordbdy">
+                    <div className="col-lg-4 col-md-6 ycrd whyccrd">
+                        <Card className="box mnhght">
+                            <Card.Body style={{padding: '10px'}}>
                                 <div style={{marginBottom: '20px'}}>
                                     <img src={Whitelogofive} className="skillimg" alt="" srcset="" />
                                 </div>
@@ -82,7 +82,7 @@ function Secondsec ()
                                     <h2 className="wbapp">Custom Web Development for the Enterprise</h2>
                                 </div>
                                 <div>
-                                <p className="cordtxt">
+                                <p className="cordztxt">
                                     Build a custom solution for your business from the ground-up. Our wide-ranging custom web development services allow you to create cross-platform solutions for any industry regardless of scale or complexity.
                                 </p>
                                 </div>
@@ -90,52 +90,52 @@ function Secondsec ()
                         </Card>
                     </div>
                 </Row>
-                <Row style={{marginTop: '18px'}}>
-                    <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mnhght">
-                        <Card className="box">
-                            <Card.Body className="cordbdy">
+                <Row>
+                    <div className="col-lg-4 col-md-6 ycrd whyccrd">
+                        <Card className="box mnhght">
+                            <Card.Body style={{padding: '10px'}}>
                                 <div style={{marginBottom: '20px'}}>
                                     <img src={Whitelogothree} className="skillimg" alt="" srcset="" />
                                 </div>
                                 <div className="cordtitle">
-                                    <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Java Web Development Services</h2>
+                                    <h2 className="wbapp">Java Web Development Services</h2>
                                 </div>
                                 <div>
-                                <p className="cordtxt">
+                                <p className="cordztxt">
                                     With over a decade in providing reliable Java web development services, you can trust us to build a comprehensive web solution on Java for your business.
                                 </p>
                                 </div>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mnhght">
-                        <Card className='box'>
-                            <Card.Body className="cordbdy">
+                    <div className="col-lg-4 col-md-6 ycrd whyccrd">
+                        <Card className='box mnhght'>
+                            <Card.Body style={{padding: '10px'}}>
                                 <div style={{marginBottom: '20px'}}>
                                     <img src={Whitelogofour} className="skillimg" alt="" srcset="" />
                                 </div>
                                 <div className="cordtitle">
-                                    <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>WordPress Web Development Services</h2>
+                                    <h2 className="wbapp">WordPress Web Development Services</h2>
                                 </div>
                                 <div>
-                                    <p className="cordtxt">
+                                    <p className="cordztxt">
                                     Use our expertise to create and expand your online store on the WordPress platform. Our WordPress web development services can also help you transfer your existing store to the platform or add new extensions.
                                     </p>
                                 </div>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mnhght">
-                        <Card className="box">
-                            <Card.Body className="cordbdy">
+                    <div className="col-lg-4 col-md-6 ycrd whyccrd">
+                        <Card className="box mnhght">
+                            <Card.Body style={{padding: '10px'}}>
                                 <div style={{marginBottom: '20px'}}>
                                     <img src={Whitelogofive} className="skillimg" alt="" srcset="" />
                                 </div>
                                 <div className="cordtitle">
-                                    <h2 style={{fontFamily: 'Urbanist-medium', fontSize: '24px'}}>Shopify Web Development Services</h2>
+                                    <h2 className="wbapp">Shopify Web Development Services</h2>
                                 </div>
                                 <div>
-                                <p className="cordtxt">
+                                <p className="cordztxt">
                                     From comprehensive module management to building a web solution from scratch, our Shopify development services will cover your every business need.
                                 </p>
                                 </div>

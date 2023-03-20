@@ -5,7 +5,7 @@ function Thirdsecs ()
 {
     return(
         <div className="thrdsec" >
-            <div className="container-fluid contan" style={{paddingTop: '12%', paddingBottom: '12%', color: 'white', maxWidth: '1280px'}}>
+            <div className="container-fluid contan const" style={{color: 'white', maxWidth: '1280px'}}>
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-6">
                         <div>
