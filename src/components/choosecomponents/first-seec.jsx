@@ -3,13 +3,13 @@ import Sftwr from "../../assets/sftwr.png"
 function Firstseec() {
     return(
         <div className="frstseec">
-            <div className="container-fluid" style={{maxWidth: '1280px', paddingTop: '7%' , paddingBottom: '7%'}}>
+            <div className="container-fluid inovatbrnd" style={{maxWidth: '1280px'}}>
                 <div className="row">
                     <div className="col-lg-5">
-                        <div className="mt-4">
-                        <h2 style={{fontSize: '20px', fontFamily: 'Urbanist-medium', fontWeight: '400', lineHeight: '26px', letterSpacing: '1px', color: '#34A9FF'}}>Who we are</h2>
-                        <p style={{color: 'black',fontFamily: 'Urbanist-medium', fontSize: '24px',lineHeight: '32px', fontWeight: '400'}}>
-                        Urban Software, the home of creative design solutions. We offer smart web design for smarter businesses, so whatever your needs get in touch today. We are serving across the globe and we help business to accelerate their sales, We create custom strategies for each of our clients based on their needs and goals, Our focus is to make people aware the vast and growing power of today's new digital capabilities and provide them high quality products and services.
+                        <div className="mt-2">
+                        <h2 className="whowe">Who we are</h2>
+                        <p className="whopara">
+                            Urban Software, the home of creative design solutions. We offer smart web design for smarter businesses, so whatever your needs get in touch today. We are serving across the globe and we help business to accelerate their sales, We create custom strategies for each of our clients based on their needs and goals, Our focus is to make people aware the vast and growing power of today's new digital capabilities and provide them high quality products and services.
                         </p>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import { Button } from "bootstrap";
 function Firstsecc() {
     return(
         <div className="frrstsec">
-            <div className="container-fluid contan" style={{paddingTop: '150px', paddingBottom: '150px', color: 'white', maxWidth: '1280px'}}>
+            <div className="container-fluid contan inovatbrand" style={{ color: 'white', maxWidth: '1280px'}}>
                 <div className="row">
                     <div className="col-lg-6">
                         <div>

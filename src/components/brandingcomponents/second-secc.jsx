@@ -42,17 +42,17 @@ function Secondsecc () {
                     </div>
                     
                 </div>
-                <div style={{paddingTop: '7%'}}>
-                    <h2 style={{fontFamily: 'Urbanist-medium', fontSize: 'clamp(1.1rem, 0.7429rem + 1.7857vw, 3.6rem)', color: 'black'}}>Our Services</h2>
-                    <p className="mt-3" style={{fontFamily: 'Urbanist-regular', fontSize: '16px', color: 'black'}}>The services that we provide to elevate the brand quotient involve brand identity, below the line advertising, above the line advertising, online communication strategy, visual media and others</p>
+                <div >
+                    <h2 className="serve">Our Services</h2>
+                    <p className="servepara">The services that we provide to elevate the brand quotient involve brand identity, below the line advertising, above the line advertising, online communication strategy, visual media and others</p>
                 </div>
-                <div>
-                    <ul style={{color: 'black',paddingLeft: '20px'}}>
-                        <li className="mt-3">Logo Design, Brand Image, Brand Positioning, Visual Identity</li>
-                        <li className="mt-3">Brand Presentations, Visual Ads/Videos</li>
-                        <li className="mt-3">Landing Page, Print Media Management</li>
-                        <li className="mt-3">Digital Ads, Social Media Strategy, SEO </li>
-                        <li className="mt-3">Graphic Design, Packaging, Launch Videos</li>
+                <div style={{paddingBottom: '50px'}}>
+                    <ul style={{marginTop: '20px',paddingLeft: '20px'}}>
+                        <li className="serveli">Logo Design, Brand Image, Brand Positioning, Visual Identity</li>
+                        <li className="serveli">Brand Presentations, Visual Ads/Videos</li>
+                        <li className="serveli">Landing Page, Print Media Management</li>
+                        <li className="serveli">Digital Ads, Social Media Strategy, SEO </li>
+                        <li className="serveli">Graphic Design, Packaging, Launch Videos</li>
                     </ul>
                 </div>
             </div>
