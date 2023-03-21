@@ -2,13 +2,14 @@ import React from 'react';
 import './hader.css'
 import Whitelogo from '../../assets/urbanblack.svg';
 import {Navbar, Nav} from 'react-bootstrap';
+import $ from 'jquery';
 function Hader() {
     return (
       <div className="App">
-            <Navbar collapseOnSelect expand="lg" style={{backgroundColor: 'white'}} variant="dark" sticky='top'>
-              <div className='container-fluid'>
+            <Navbar collapseOnSelect expand="lg"  style={{backgroundColor: 'white'}} variant="dark">
+              <div className='container-fluid hadder' >
                 <Navbar.Brand href="#home">
-                  <img src={Whitelogo} width="90"height="42"className="d-inline-block align-top"alt="React Bootstrap logo"/>
+                  <img src={Whitelogo} width="90" height="42" className="d-inline-block align-top" alt="React Bootstrap logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,3 +34,12 @@ function Hader() {
     );
   }
   export default Hader;
+
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".hadder").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".hadder").removeClass("active");
+    }
+});

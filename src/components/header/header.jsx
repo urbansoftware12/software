@@ -2,11 +2,12 @@ import React from 'react';
 import './header.css'
 import Whitelogo from '../../assets/urban_software_white.svg';
 import {Navbar, Nav} from 'react-bootstrap';
+import $ from 'jquery';
 function Header() {
     return (
       <div className="App">
             <Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#141414'}} variant="dark" sticky='top'>
-              <div className='container-fluid' style={{maxWidth: '1280px'}}>
+              <div className='container-fluid hdder'>
                 <Navbar.Brand href="#home">
                   <img src={Whitelogo} width="90"height="42"className="d-inline-block align-top"alt="React Bootstrap logo"/>
                 </Navbar.Brand>
@@ -33,3 +34,12 @@ function Header() {
     );
   }
   export default Header;
+
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".hdder").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".hdder").removeClass("active");
+    }
+});

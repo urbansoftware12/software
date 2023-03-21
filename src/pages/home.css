@@ -694,6 +694,16 @@ span.svg {
     font-weight: 400;
     line-height: 20px;
 }
+.priwat{
+    color: #000000;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.chrme{
+    font-size: 16px;
+}
 .txxt{
     padding: .75rem .75rem !important;
     background-color: #F0F0F0 !important;
@@ -1049,6 +1059,9 @@ span.svg {
     .fusion{
         font-size: 26px;
         line-height: 32px;
+    }
+    .chrme{
+        font-size: 13px;
     }
 
 }

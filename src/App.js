@@ -10,6 +10,7 @@ import Insight from './pages/insight';
 import Marketingpage from './pages/marketing';
 import Uxx from './pages/uxx';
 import Privacypolic from './pages/privacypolic';
+import Cookiepolicy from './pages/cookiepolicy';
 const App = () => {
   return (
     <div className='roo-container'>
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/marketing' exact element={<Marketingpage />} />
           <Route path='/uxx' exact element={<Uxx/>}/>
           <Route path='/privacypolic' exact element={<Privacypolic/>}/>
+          <Route path='/cookiepolicy' exact element={<Cookiepolicy/>}/>
         </Routes>
       </BrowserRouter>
     </div>

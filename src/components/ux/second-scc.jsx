@@ -17,7 +17,7 @@ function Secondscc(){
                 <div style={{textAlign: 'center'}}>
                     <h1 className="fusion">Our UI and UX Design Services and Capabilities</h1>
                 </div>
-                <div className="row mt-4">
+                <div className="row">
                     <div className="col-lg-2 desply">
                         <div className="text-center">
                             <img src={Experience} width='50' height='60' style={{marginBottom: '20px'}} alt="" />
