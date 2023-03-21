@@ -2,12 +2,12 @@ import React from "react";
 function Privacypolicy(){
     return(
         <div className="privte">
-           <div className="container-fluid mt-5 mb-5" style={{maxWidth: '1280px'}}>
+           <div className="container-fluid" style={{maxWidth: '1280px', paddingTop: '150px',paddingBottom:'50px'}}>
             <div>
-                <h2 className="develop">Privacy Policy</h2>
+                <h2 className="priwat">Privacy Policy</h2>
             </div>
             <div>
-                <p style={{fontWeight: '400', fontFamily: 'Urbanist-medium', color: '#000000', lineHeight: '28px'}}>This Privacy Policy describes the policies of Urban Software &amp; Web Development, 500 4TH ST NW SUITE 102 #1479 ALBUQUERQUE, NM 87102., New Mexico 87102, United States of America (the), email: info@urbansoftware.tech, on the collection, use and disclosure of your information that we collect when you use our website ( https://urbansoftware.tech ). (the “Service”). 
+                <p style={{fontSize: '16px',fontWeight: '400', fontFamily: 'Urbanist-medium', color: '#000000', lineHeight: '28px'}}>This Privacy Policy describes the policies of Urban Software &amp; Web Development, 500 4TH ST NW SUITE 102 #1479 ALBUQUERQUE, NM 87102., New Mexico 87102, United States of America (the), email: info@urbansoftware.tech, on the collection, use and disclosure of your information that we collect when you use our website ( https://urbansoftware.tech ). (the “Service”). 
                     By accessing or using the Service, you are consenting to the collection, use and disclosure of your information in accordance with this Privacy Policy.
                      If you do not consent to the same, please do not access or use the Service. 
                      <br/>We may modify this Privacy Policy at any time without any prior notice to you and will post the revised Privacy Policy on the Service. 

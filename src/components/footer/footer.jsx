@@ -12,7 +12,7 @@ function Footer()
       <div style={{backgroundColor: '#141414'}}>
         <div className='container-fluid' style={{maxWidth: '1280px',paddingBottom: '15px',paddingTop: '50px'}}>
           <div className='botn' style={{color: 'white',textAlign: 'left',paddingBottom: '30px'}}>
-            <h1 className='design'>Design.Built.Launch</h1>
+            <h1 className='design in-left'>Design.Built.Launch</h1>
           </div>
           <Row>
             <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
