@@ -1,0 +1,305 @@
+.frstcec{
+    /* background-image: url(../assets/bg.png); */
+    background-color: #34A9FF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cec{
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+.busi{
+    font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: rgba(0, 0, 0, 0.64);
+}
+.one{
+    font-family: 'Urbanist-medium';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 80px;
+/* identical to box height, or 111% */
+
+letter-spacing: -2px;
+
+color: #34A9FF;
+}
+.two{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #000000;
+}
+.crds{
+    background-color: #FFFFFF;
+border: 1px solid #34A9FF !important;
+box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+border-radius: 6px 6px 0px 6px;
+padding: 20px;
+}
+.crids{
+    background-color: #FFFFFF;
+border: 1px solid #34A9FF !important;
+box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+padding: 60px;
+width: 418.66px;
+}
+.al{
+    font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.all{
+    font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: rgba(255, 255, 255, 0.64);
+}
+.txt{
+    font-family: 'Urbanist-medium';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;color: #FFFFFF;
+}
+.consltoniet{
+    font-family: 'Urbanist-regular';
+    padding: 12px 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;color: #34A9FF;
+text-decoration: none;
+}
+.comm:after {
+    content: "";
+    position: absolute;
+    left: 480px;
+    top: -40%;
+}
+.crdss{
+    background-color: #FFFFFF;
+    border: 1px solid #34A9FF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 0px 6px 6px 0px;
+    padding: 20px;
+    }
+.undr{
+    font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(0, 0, 0, 0.64);
+}
+.tch{
+    font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #000000;
+}
+.mdrn{
+    font-family: 'Urbanist-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #34A9FF;
+margin-bottom: 20px;
+}
+.pict{
+    width: 450px;
+    height: 560px;
+    max-width: 100%;
+}
+.picts{
+    width: 566px;
+    height: 585px;
+    max-width: 100%;
+}
+.hlp{
+    font-family: 'Urbanist-Medium';
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 60px;
+margin-bottom: 20px;
+color: #FFFFFF;
+}
+.pfull{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+.pfulll{
+    font-family: 'inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #34A9FF;
+}
+.consltonee{
+    background: #000000;
+border-radius: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+text-decoration: none;
+padding: 12px 24px;
+color: #FFFFFF;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 18px;
+gap: 6px;
+
+width: 121px;
+height: 46px;
+}
+.consltonie{
+    background: #34A9FF;
+border-radius: 6px;
+font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+text-decoration: none;
+padding: 12px 24px;
+color: #FFFFFF;
+box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 18px;
+gap: 6px;
+
+width: 121px;
+height: 46px;
+}
+.pfullon{
+    color: rgba(255, 255, 255, 0.64);
+    font-family: 'Urbanist-Regular';
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+}
+.pixo{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.web{
+    font-family: 'Urbanist Medium';
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 64px;
+color: #000000;
+margin-bottom: 20px;
+}
+.range{
+    font-family: 'Urbanist-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #000000;
+}
+.us{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.skilo{
+    border: 1px solid #34A9FF;
+    border-right: 0.5px solid #34A9FF;
+    border-left: 0.5px solid #34A9FF;
+    padding: 15px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.prof{
+    font-family: 'Urbanist-medium';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #000000;
+}
+@media only screen and (max-width: 767px) and (min-width: 320px)  {
+    .cec{
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+    .mdrn{
+    line-height: 24px;
+    }
+    .hlp{
+    font-size: 24px;
+    line-height: 32px;
+    }
+    .pfull{
+        line-height: 22px;
+    }
+    .pfullon{
+    line-height: 22px;
+    }
+    .web{
+    font-size: 24px;
+    line-height: 32px;
+    }
+    .range {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .pict{
+        width: 100% !important;
+        height: inherit;
+    }
+    .picts{
+        width: 100% !important;
+        height: inherit;
+    }
+}

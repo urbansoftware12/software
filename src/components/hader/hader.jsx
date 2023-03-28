@@ -8,7 +8,7 @@ function Hader() {
       <div className="App">
             <Navbar collapseOnSelect expand="lg"  style={{backgroundColor: 'white'}} variant="dark">
               <div className='container-fluid hadder' >
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="./hom">
                   <img src={Whitelogo} width="90" height="42" className="d-inline-block align-top" alt="React Bootstrap logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
