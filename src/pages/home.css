@@ -704,6 +704,11 @@ span.svg {
 .chrme{
     font-size: 16px;
 }
+.zxs{
+    width:100%;
+    height:25.41%;
+    max-width:244px;
+}
 .txxt{
     padding: .75rem .75rem !important;
     background-color: #F0F0F0 !important;
@@ -906,7 +911,7 @@ span.svg {
         margin-bottom: 5px;
     }
     .botn{
-        display: none;
+        display: none !important;
     }
     .got{
         font-size: 12px;
@@ -1063,6 +1068,16 @@ span.svg {
     .chrme{
         font-size: 13px;
     }
+    .dnon{
+        display: block !important;
+    }
+    .service-development .col {
+        width: 100% !important;
+        padding: 30px 34px;
+    }
 
 }
 
+.dnon{
+    display: none !important;
+}
