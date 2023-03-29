@@ -4,16 +4,28 @@ import Comma from '../../assets/comma.png';
 function Fourteencec(){
     return(
         <div className="forteen" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'60px'}}>
                 <div className="row">
                     <div className="col-lg-6">
                         <div>
                             <img src={Bitman} style={{width:'100%'}} alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <div className="comm">
-                            <img src={{Comma}} alt="" />
+                    <div className="offset-lg-1 col-lg-5">
+                        <div style={{position:'relative'}}>
+                        <img src={Comma} style={{marginLeft:'290px',marginTop:'60px'}} alt="" />
+                            <div style={{position:'absolute',top:'50px'}}>
+                                <div style={{marginBottom:'20px'}}>
+                                <h2 className="mdrn">Founder Words</h2>
+                                </div>
+                                <h2 className="txt">Digital agency is a <br /> business you hire to outsource your digital marketing efforts</h2>
+                            </div>
+                        </div>
+                        <div>
+                        <div style={{marginTop:'170px'}}>
+                                <h2 className="mdrnn">Ren Delan</h2>
+                                </div>
+                                <h2 className="mdron">Founder</h2>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ import Team from '../../assets/team.svg';
 function Thirdcec(){
     return(
         <div className="thrdcec">
-            <div className="container-fluid" style={{paddingTop: '50px', paddingBottom: '80px',maxWidth:'1280px'}}>
+            <div className="container-fluid" style={{paddingTop: '50px', paddingBottom: '60px',maxWidth:'1280px'}}>
                 <div style={{textAlign: 'center'}}>
                     <div>
                         <p className="skilparagrph">Skills & Expertise</p>
@@ -18,7 +18,7 @@ function Thirdcec(){
                     <h1 className="cost">How UrbanSoft can help you save <br/> time and cost?</h1>
                 </div>
                 <div className="row">
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo1">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Experience} className="imgskil" alt="React logo"/>
                         </div>
@@ -26,7 +26,7 @@ function Thirdcec(){
                             <h2 className="exprnce">7+ Years <br/>of Experience</h2>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo2">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Customer} className="imgskil"alt="React logo"/>
                         </div>
@@ -34,7 +34,7 @@ function Thirdcec(){
                             <h2 className="exprnce">100+ <br/> Customers</h2>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo3">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Resources} className="imgskil"alt="React logo"/>
                         </div>
@@ -42,7 +42,7 @@ function Thirdcec(){
                             <h2 className="exprnce">150+ Years <br/> Qualified Resources</h2>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo4">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Level} className="imgskil" alt="React logo"/>
                         </div>
@@ -61,7 +61,7 @@ function Thirdcec(){
                             <h2 className="exprnce">Transparent <br/> Cost</h2>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo5">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Art} className="imgskil" alt="React logo"/>
                         </div>
@@ -69,7 +69,7 @@ function Thirdcec(){
                             <h2 className="exprnce">State of the<br/> Art Facilities</h2>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo6">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Delivery} className="imgskil" alt="React logo"/>
                         </div>
@@ -77,7 +77,7 @@ function Thirdcec(){
                             <h2 className="exprnce">Quick Product<br/>Delivery</h2>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 skil skilo">
+                    <div className="col-lg-3 col-md-3 skil skilo7">
                         <div className="text-center" style={{marginBottom: '20px'}}>
                           <img src={Team} className="imgskil" alt="React logo"/>
                         </div>

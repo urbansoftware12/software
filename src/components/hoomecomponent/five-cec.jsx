@@ -1,16 +1,20 @@
 import React from "react";
-import Video from "../../assets/video.png"
+// import Video from "../../assets/vid.mp4";
+import Video from "../../assets/video.png";
 function Fivecec(){
     return(
         <div className="fivcec">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '120px'}}>
+            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '60px'}}>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-5">
                     <div>
                         <img src={Video} alt="" style={{width:'100%'}} srcset="" />
+                        {/* <video>
+                            <source src={Video} type="video/mp4" />
+                        </video> */}
                     </div>
                 </div>
-                    <div className="col-lg-6">
+                    <div className="offset-lg-1 col-lg-6">
                     <div className="mt-5">
                             <h2 className="mdrn">VIDEO REEL</h2>
                         </div>

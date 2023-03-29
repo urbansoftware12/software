@@ -4,7 +4,7 @@ import Good from '../../assets/Good.png';
 function Sixcec(){
     return(
         <div className="sxcec">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '120px'}}>
+            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '60px'}}>
             <div className="row">
                 
                     <div className="col-lg-6">

@@ -143,9 +143,9 @@
 .content.show{
     display: block;
 }
-span.svg, span.svg.transform {
+/* span.svg, span.svg.transform {
     transition: all .4s cubic-bezier(1,1,1,1);
-}
+} */
 span.svg.transform {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
