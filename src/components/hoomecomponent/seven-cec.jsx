@@ -4,7 +4,7 @@ import Homw from '../../assets/homw.png';
 function Sevencec(){
     return(
         <div className="svencec">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '120px'}}>
+            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '60px'}}>
                 <div className="row">
                     <div className="col-lg-6">
                         <div>

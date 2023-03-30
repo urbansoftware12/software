@@ -21,21 +21,112 @@ function Firstcec(){
                             <div>
                                 <h2 className="us">Who supports us</h2>
                             </div>
-                            <div style={{display:'flex',gap:'30px',flexWrap:'wrap'}}>
-                                <div>
-                                    <img src={Gitlab} alt="" />
-                                </div>
-                                <div>
-                                    <img src={Slack} alt="" />
-                                </div>
-                                <div>
-                                    <img src={Netflix} alt="" />
-                                </div>
-                                <div>
-                                    <img src={Paypal} alt="" />
-                                </div>
+                            {/* KC */}
 
+                            <div id="demone" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div className="text-center">
+                                        <img src={Gitlab} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Slack} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Netflix} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Paypal} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                
+                            </div>    
+                        </div>
+                        <div className="carousel-item">
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div className="text-center">
+                                        <img src={Slack} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Netflix} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Paypal} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Gitlab} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div className="carousel-item">
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div className="text-center">
+                                        <img src={Netflix} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Paypal} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Gitlab} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Slack} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                        <div className="carousel-item">
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div className="text-center">
+                                        <img src={Paypal} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Gitlab} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Slack} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 botn">
+                                    <div className="text-center">
+                                        <img src={Netflix} alt="Los Angeles" className="d-block"/>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
                             </div>
+
+                            {/* car */}
 
                         </div>
                     </div>

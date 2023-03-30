@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 function Eightcec(){
     return(
         <div className="eghtcec">
-        <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+        <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'60px'}}>
             <div className="row">
                 <div className="col-lg-5">
                     <div>

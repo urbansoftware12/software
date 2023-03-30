@@ -21,7 +21,7 @@ function Fourcec(){
                     </div>
                     <div className="col-lg-6">
                         <div style={{display: 'flex',alignItems:'center',gap:'30px',marginBottom:'20px'}}>
-                            <div>
+                            <div style={{width:'50px'}}>
                                 <h2 className="one">1</h2>
                             </div>
                             <div>
@@ -29,7 +29,7 @@ function Fourcec(){
                             </div>
                         </div>
                         <div style={{display: 'flex',alignItems:'center',gap:'30px',marginBottom:'20px'}}>
-                            <div>
+                            <div style={{width:'50px'}}>
                                 <h2 className="one">2</h2>
                             </div>
                             <div>
@@ -37,7 +37,7 @@ function Fourcec(){
                             </div>
                         </div>
                         <div style={{display: 'flex',alignItems:'center',gap:'30px',marginBottom:'20px'}}>
-                            <div>
+                            <div style={{width:'50px'}}>
                                 <h2 className="one">3</h2>
                             </div>
                             <div>

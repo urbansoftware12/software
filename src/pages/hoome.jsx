@@ -16,6 +16,12 @@ import Elevencec from "../components/hoomecomponent/eleven-cec";
 import Twelvecec from "../components/hoomecomponent/twelve-cec";
 import Thirteencec from "../components/hoomecomponent/thirteen-cec";
 import Fourteencec from "../components/hoomecomponent/fourteen-cec";
+import Fifteencec from "../components/hoomecomponent/fifteen-cec";
+import Sixteencec from "../components/hoomecomponent/sixteen-cec";
+import Seventeencec from "../components/hoomecomponent/seventeen-cec";
+import Eightteencec from "../components/hoomecomponent/eightteen-cec";
+import Nineteencec from "../components/hoomecomponent/nineteen-cec";
+import Twentycec from "../components/hoomecomponent/twenty-cec";
 function Hoome(){
 return(
     <div className="hme">
@@ -34,6 +40,12 @@ return(
         <Twelvecec/>
         <Thirteencec/>
         <Fourteencec/>
+        <Fifteencec/>
+        <Sixteencec/>
+        <Seventeencec/>
+        <Eightteencec/>
+        <Nineteencec/>
+        <Twentycec/>
         <Footer/>
     </div>
 )

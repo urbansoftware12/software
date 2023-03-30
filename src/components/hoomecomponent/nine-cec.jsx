@@ -28,7 +28,7 @@ function Ninecec(){
                             <a href="/" style={{color:'#34A9FF', textDecoration:'none',lineHeight:'32px',fontWeight:'400'}} role={Button}>Learn More</a>
                         </div>
                             </div>
-                            <div className=" crids">
+                            <div className=" crides">
                                         <div style={{marginBottom:'20px'}}>
                                             <img src={Gro} alt="" srcset="" />
                                         </div>
@@ -42,7 +42,7 @@ function Ninecec(){
                             <a href="/" style={{color:'#34A9FF', textDecoration:'none',lineHeight:'32px',fontWeight:'400'}} role={Button}>Discover More</a>
                         </div>
                             </div>
-                            <div className=" crids">
+                            <div className=" cridz">
                             <div style={{marginBottom:'20px'}}>
                                             <img src={Grou} alt="" srcset="" />
                                         </div>

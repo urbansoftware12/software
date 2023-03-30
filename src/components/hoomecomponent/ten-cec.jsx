@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 function Tencec(){
     return(
         <div className="tncec" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'40px'}}>
                 <div className="text-center">
                     <h2 className="mdrn">Service</h2>
                 </div>

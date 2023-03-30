@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 function Twelvecec (){
     return(
         <div className="tvlecec" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'40px'}}>
                 <div className="text-center">
                     <h2 className="mdrn">Events</h2>
                 </div>
