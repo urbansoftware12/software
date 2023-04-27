@@ -5,7 +5,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 import $ from 'jquery';
 function Header() {
     return (
-      <div className="App">
+      <div className="App" style={{height:'0px'}}>
             <Navbar collapseOnSelect expand="lg" variant="dark" sticky='top'>
               <div className='container-fluid hdder'>
                 <Navbar.Brand href="#home">

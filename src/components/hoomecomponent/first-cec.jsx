@@ -25,6 +25,37 @@ function Firstcec(){
 
                             <div id="demone" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
+                        {/* <div className="row">
+                            <div className="col-md-3">
+                                <div  className="carousel-item active">
+                                    <div className="text-center">
+                                        <img src={Gitlab} alt="Los Angeles"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div  className="carousel-item">
+                                    <div className="text-center">
+                                        <img src={Slack} alt="Los Angeles"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div  className="carousel-item">
+                                    <div className="text-center">
+                                        <img src={Netflix} alt="Los Angeles"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div  className="carousel-item">
+                                    <div className="text-center">
+                                        <img src={Paypal} alt="Los Angeles"/>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            </div> */}
                         <div className="carousel-item active">
                             <div className="row">
                                 <div className="col-md-3">
