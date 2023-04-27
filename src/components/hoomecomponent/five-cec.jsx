@@ -1,6 +1,4 @@
 import React from "react";
-// import Video from "../../assets/vid.mp4";
-import Video from "../../assets/video.png";
 function Fivecec(){
     return(
         <div className="fivcec">
@@ -8,7 +6,17 @@ function Fivecec(){
             <div className="row">
                 <div className="col-lg-5">
                     <div>
-                        <img src={Video} alt="" style={{width:'100%'}} srcset="" />
+                    <video
+                            autoPlay={true}
+                            muted={true}
+                            loop={true}
+                            playsInline={true}
+                            preload="auto"
+                            poster="https://ncx.cx/images/ncx_mainvideo_poster.png"
+                            width="320"
+                        >
+                            <source src={require('../../assets/vid.mp4')} type="video/mp4" />
+                        </video>
                         {/* <video>
                             <source src={Video} type="video/mp4" />
                         </video> */}
