@@ -4,11 +4,11 @@ import Bitmap2 from '../../assets/Bitmap2.png';
 import Bitmap3 from '../../assets/Bitmap3.png';
 import Bitmap4 from '../../assets/Bitmap4.png';
 import { Button } from "react-bootstrap";
-import Tabhoome from "./tabhoome";
+// import Tabhoome from "./tabhoome";
 function Tencec(){
     return(
         <div className="tncec" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'40px'}}>
+            <div className="container-fluid srvceltst">
                 <div className="text-center">
                     <h2 className="mdrn">Service</h2>
                 </div>
@@ -17,9 +17,9 @@ function Tencec(){
                 </div>
 
                 {/* tab Start */}
-                <div className="container">
+                {/* <div className="container">
                 <Tabhoome/>
-                </div>
+                </div> */}
                 {/* tab Close */}
 
                 <div className="row" style={{marginBottom:'20px'}}>

@@ -5,7 +5,7 @@ import Sms from '../../assets/sms.png';
 function Twentycec(){
     return(
         <div className="tventy">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid inffo" >
             
             <div className="" style={{display:'flex',flexWrap:'wrap'}}>
                             <div className=" crids">

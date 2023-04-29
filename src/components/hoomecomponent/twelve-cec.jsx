@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 function Twelvecec (){
     return(
         <div className="tvlecec" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'40px'}}>
+            <div className="container-fluid evntexplore">
                 <div className="text-center">
                     <h2 className="mdrn">Events</h2>
                 </div>
@@ -46,7 +46,7 @@ function Twelvecec (){
                     </div>
 
                     <div className="col-lg-4">
-                        <div style={{padding:'30px',border:'1px solid #FFFFFF'}}>
+                        <div className="noovmbr">
                             <div style={{display:'flex',alignItems:'center',gap:'20px'}}>
                             <div>
                                 <h2 className="one" style={{color:'#FFFFFF'}}>15</h2>

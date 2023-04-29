@@ -3,10 +3,10 @@ import { Button } from "react-bootstrap";
 function Nineteencec(){
     return(
         <div className="nneteen">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid touch" >
                 <div className="row">
                 <div className="col-lg-6 col-md-6">
-                            <div style={{background:'#FFFFFF',padding:'40px',height:'100%',borderRadius:'6px'}}>
+                            <div className="crdtouch" >
                             <div>
                                 <h2 className="developweb" style={{color: '#000000', marginBottom: '10px'}}>Get In Touch</h2>
                             </div>

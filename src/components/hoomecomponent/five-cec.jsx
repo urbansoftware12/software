@@ -2,24 +2,14 @@ import React from "react";
 function Fivecec(){
     return(
         <div className="fivcec">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '120px', paddingBottom: '60px'}}>
+            <div className="container-fluid videreel" >
             <div className="row">
                 <div className="col-lg-5">
                     <div>
-                    <video
-                            autoPlay={true}
-                            muted={true}
-                            loop={true}
-                            playsInline={true}
-                            preload="auto"
-                            poster="https://ncx.cx/images/ncx_mainvideo_poster.png"
-                            width="320"
-                        >
+                        <video
+                            autoPlay={true} muted={true} loop={true} playsInline={true} preload="auto" poster="https://ncx.cx/images/ncx_mainvideo_poster.png" style={{width:'100%'}}>
                             <source src={require('../../assets/vid.mp4')} type="video/mp4" />
                         </video>
-                        {/* <video>
-                            <source src={Video} type="video/mp4" />
-                        </video> */}
                     </div>
                 </div>
                     <div className="offset-lg-1 col-lg-6">

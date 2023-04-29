@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 function Seventeencec(){
     return(
         <div className="sventeen">
-            <div className="container-fluid" style={{color: 'white', maxWidth: '1280px',paddingTop:'120px',paddingBottom:'40px'}}>
+            <div className="container-fluid agencyquestion" >
                 <div className="row">
                     <div className="col-lg-5 col-md-4 col-sm-6">
                         <div>
