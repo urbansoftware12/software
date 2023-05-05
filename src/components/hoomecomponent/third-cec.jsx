@@ -10,7 +10,7 @@ import Team from '../../assets/team.svg';
 function Thirdcec(){
     return(
         <div className="thrdcec">
-            <div className="container-fluid" style={{paddingTop: '50px', paddingBottom: '60px',maxWidth:'1280px'}}>
+            <div className="container-fluid urbnsft" >
                 <div style={{textAlign: 'center'}}>
                     <div>
                         <p className="skilparagrph">Skills & Expertise</p>

@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 function Fourcec(){
     return(
         <div className="forcec" style={{}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop: '100px', paddingBottom: '100px',borderBottom:'1px solid #349AFF'}}>
+            <div className="container-fluid awesame" >
                 <div className="row">
                     <div className="col-lg-6">
                     <div>

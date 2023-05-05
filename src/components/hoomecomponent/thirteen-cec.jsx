@@ -8,11 +8,11 @@ import Bitma4 from '../../assets/Bitma4.png';
 function Thirteencec(){
     return(
         <div className="thrteen" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'60px'}}>
+            <div className="container-fluid dsignrteam" >
                 <div style={{marginBottom:'20px'}}>
                     <h2 className="mdrn">Our Team</h2>
                 </div>
-                <div style={{display:'flex',justifyContent:'space-between',marginBottom:'20px'}}>
+                <div className="dzinr" >
                     <div>
                         <h2 className="teem">Team of Designers <br /> and Developers</h2>
                     </div>

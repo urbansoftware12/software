@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 function Sixteencec(){
     return(
         <div className="sixteen">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'40px'}}>
+            <div className="container-fluid featureprice" >
             <div>
                             <h2 className="mdrn">Features</h2>
                             <h2 className="pla">Check Our <br />

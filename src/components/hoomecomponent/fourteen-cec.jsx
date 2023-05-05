@@ -4,7 +4,7 @@ import Comma from '../../assets/comma.png';
 function Fourteencec(){
     return(
         <div className="forteen" style={{backgroundColor:'#3A3C56'}}>
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'60px'}}>
+            <div className="container-fluid wordfinder" >
                 <div className="row">
                     <div className="col-lg-6">
                         <div>
@@ -13,7 +13,7 @@ function Fourteencec(){
                     </div>
                     <div className="offset-lg-1 col-lg-5">
                         <div style={{position:'relative'}}>
-                        <img src={Comma} style={{marginLeft:'290px',marginTop:'60px'}} alt="" />
+                        <img src={Comma} className="foundr"alt="" />
                             <div style={{position:'absolute',top:'50px'}}>
                                 <div style={{marginBottom:'20px'}}>
                                 <h2 className="mdrn">Founder Words</h2>

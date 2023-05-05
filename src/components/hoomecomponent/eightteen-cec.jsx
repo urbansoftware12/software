@@ -6,12 +6,12 @@ import Bitm3 from '../../assets/Bitm3.png';
 function Eightteencec(){
     return(
         <div className="eghtteen">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid blogart">
                 <div>
                     <h2 className="mdrn">OUR BLOG</h2>
                             
                 </div>
-                <div style={{display:'flex',justifyContent:'space-between',alignItems:'end',marginBottom:'30px'}}>
+                <div className="bloglatest">
                     <div>
                         <h2 className="clent" style={{textAlign:'left',marginBottom:'0px'}}>Latest Blog <br /> Articles</h2>
                     </div>
@@ -52,12 +52,12 @@ function Eightteencec(){
                     </div>
                 </div>
                 <hr style={{borderTop:'1px solid #34A9FF',opacity:'5',marginTop:'50px',marginBottom:'20px'}}/>
-                <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginTop:'60px'}}>
+                <div className="newsltr" >
                     <div>
                         <h2 className="assk">Newsletter</h2>
                     </div>
                     <div>
-                        <div style={{display:'flex',gap:'10px'}}>
+                        <div className="subcrib">
                             <div>
                                 <input type="text" className="form-control-lg" style={{border:'1px solid #34A9FF',fontFamily:'Urbanist-regular'}} placeholder="Your email"/>
                             </div>

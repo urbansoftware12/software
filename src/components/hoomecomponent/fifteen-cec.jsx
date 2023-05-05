@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 function Fifteencec(){
     return(
         <div className="fefteen">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'40px'}}>
+            <div className="container-fluid clientest" >
                 <div className="text-center">
                     <h2 className="mdrn">Testimonials</h2>
                     <h2 className="clent">What Our <br /> Clients Saying</h2>

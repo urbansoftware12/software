@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 function Ninecec(){
     return(
         <div className="nincec">
-            <div className="container-fluid" style={{maxWidth:'1280px',paddingTop:'120px',paddingBottom:'120px'}}>
+            <div className="container-fluid hlpsrvic">
             <div className="">
                             <h2 className="mdrn">Service</h2>
                         </div>
