@@ -8,6 +8,7 @@ import Brandingpage from './pages/branding';
 import Choosepage from './pages/choose';
 import Contact from './pages/contact';
 import Insight from './pages/insight';
+import Insightnewss from './pages/insightnews';
 import Marketingpage from './pages/marketing';
 import Uxx from './pages/uxx';
 import Privacypolic from './pages/privacypolic';
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/whychooseus' exact element={<Choosepage />} />
           <Route path='/contactus' exact element={<Contact />} />
           <Route path='/insight' exact element={<Insight />} />
+          <Route path='/insightnewss' exact element={<Insightnewss />} />
           <Route path='/marketing' exact element={<Marketingpage />} />
           <Route path='/uxx' exact element={<Uxx/>}/>
           <Route path='/privacypolic' exact element={<Privacypolic/>}/>

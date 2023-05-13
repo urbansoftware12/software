@@ -25,7 +25,7 @@ function Tencec(){
                 <div className="row" style={{marginBottom:'20px'}}>
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div className="scroal" >
                             <div>
                                 <h2 className="al">Show All &nbsp;<sup>14</sup></h2>
                             </div>

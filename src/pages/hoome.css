@@ -781,6 +781,16 @@ span.svg {
     padding:30px;
     border:1px solid #FFFFFF;
 }
+.mmble{
+    margin-top: 10%;
+}
+.scroal{
+    display:flex;
+    justify-content:space-between;
+    /* flex-wrap:nowrap;
+    white-space:nowrap;
+    overflow-x:scroll; */
+}
 @media only screen and (max-width: 767px) and (min-width: 320px)  {
     .cec{
         padding-top: 100px;
@@ -809,6 +819,7 @@ span.svg {
         font-weight: 500;
         font-size: 24px;
         line-height: 25px;
+        font-family: 'urbanist-medium';
     }
     .agncy{
         line-height: 24px;
@@ -829,6 +840,7 @@ span.svg {
     .web{
         font-size: 24px;
         line-height: 32px;
+        font-weight: 500;
     }
     .range {
         font-size: 20px;
@@ -1033,16 +1045,56 @@ span.svg {
         flex-wrap: wrap;
     }
     .acodttl1 {
-        padding: 20px;
+        padding: 30px 10px;
+        font-weight: 400;
     }
     .quest1 {
-        font-weight: 500;
-        font-size: 19px;
-        line-height: 22px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Urbanist Regular";
     }
     .ans1 {
         margin-bottom: 30px;
         padding: 0px 20px;
         line-height: 24px;
+    }
+    .pla{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+        font-family: 'urbanist-medium';
+    }
+    .assk{
+        font-family: 'Urbanist regular';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 1px;
+    }
+    .sorce{
+        font-size: 24px;
+        font-family: "Urbanist Regular";
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .two{
+        font-weight: 500;
+    }
+    .busi{
+        line-height: 24px;
+    }
+    .hrie{
+        line-height: 24px;
+    }
+    .scroal{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:nowrap;
+        white-space:nowrap;
+        overflow-x:scroll;
+    }
+    .all{
+    margin-left: 20px;
     }
 }
