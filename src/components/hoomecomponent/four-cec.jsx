@@ -5,7 +5,7 @@ function Fourcec(){
         <div className="forcec" style={{}}>
             <div className="container-fluid awesame" >
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                     <div>
                             <h2 className="mdrn">HOW WE WORK</h2>
                         </div>
@@ -19,7 +19,7 @@ function Fourcec(){
                             <a href="/" style={{color:'#34A9FF', textDecoration:'none'}} role={Button}>Read More</a>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div style={{display: 'flex',alignItems:'center',gap:'30px',marginBottom:'20px'}}>
                             <div style={{width:'50px'}}>
                                 <h2 className="one">1</h2>

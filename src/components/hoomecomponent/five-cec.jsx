@@ -4,7 +4,7 @@ function Fivecec(){
         <div className="fivcec">
             <div className="container-fluid videreel" >
             <div className="row">
-                <div className="col-lg-5">
+                <div className="col-lg-5 col-md-5">
                     <div>
                         <video
                             autoPlay={true} muted={true} loop={true} playsInline={true} preload="auto" poster="https://ncx.cx/images/ncx_mainvideo_poster.png" style={{width:'100%'}}>
@@ -12,7 +12,7 @@ function Fivecec(){
                         </video>
                     </div>
                 </div>
-                    <div className="offset-lg-1 col-lg-6">
+                    <div className="offset-lg-1 col-lg-6 offset-md-1 col-md-6">
                     <div className="mt-5">
                             <h2 className="mdrn">VIDEO REEL</h2>
                         </div>

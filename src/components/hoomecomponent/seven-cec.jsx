@@ -6,7 +6,7 @@ function Sevencec(){
         <div className="svencec">
             <div className="container-fluid extnson">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div>
                             <h2 className="mdrn">Features</h2>
                         </div>
@@ -17,7 +17,7 @@ function Sevencec(){
                             <a href="/" style={{color:'#34A9FF', textDecoration:'none'}} role={Button}>Read More</a>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="" style={{display:'flex',alignItems:'end',flexWrap:'wrap'}}>
                             <div className=" crds">
                                         <div style={{marginBottom:'20px'}}>

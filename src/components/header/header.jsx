@@ -6,7 +6,7 @@ import $ from 'jquery';
 function Header() {
     return (
       <div className="App" style={{height:'0px'}}>
-            <Navbar collapseOnSelect expand="lg" variant="dark" sticky='top'>
+            <Navbar collapseOnSelect expand="lg" variant="dark" fixed='top' style={{top:'0'}}>
               <div className='container-fluid hdder'>
                 <Navbar.Brand href="#home">
                   <img src={Whitelogo} width="90"height="42"className="d-inline-block align-top"alt="React Bootstrap logo"/>

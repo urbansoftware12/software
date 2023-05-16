@@ -36,36 +36,36 @@ function Thirteencec(){
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="row">
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-md-3">
                                     <div className="text-center los" >
-                                        <img src={Bitma1} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma1} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma2} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma2} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma3} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma3} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma4} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma4} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
@@ -77,36 +77,36 @@ function Thirteencec(){
                         </div>
                         <div className="carousel-item">
                             <div className="row">
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-md-3">
                                     <div className="text-center los">
-                                        <img src={Bitma2} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma2} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma3} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma3} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma4} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma4} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma1} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma1} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
@@ -117,36 +117,36 @@ function Thirteencec(){
                         </div>
                         <div className="carousel-item">
                             <div className="row">
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-md-3">
                                     <div className="text-center los">
-                                        <img src={Bitma3} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma3} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma4} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma4} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma1} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma1} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
                                         <h2 className="any">Designer</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 botn">
+                                <div className="col-lg-3 col-md-3 botn">
                                     <div className="text-center los">
-                                        <img src={Bitma2} alt="Los Angeles" height='233' className="mt-4"/>
+                                        <img src={Bitma2} alt="Los Angeles" height='233' style={{width:'100%'}} className="mt-4"/>
                                     </div>
                                     <div>
                                         <h2 className="azah">Azah Anyeni</h2>
