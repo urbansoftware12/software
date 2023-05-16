@@ -20,7 +20,7 @@ function Eightteencec(){
                     </div>
                 </div>
                 <div className="row" style={{marginBottom:'20px'}}>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4">
                         <div style={{marginBottom:'20px'}}>
                             <img src={Bitm1} height='224px' style={{width:'100%'}} alt="" />
                         </div>
@@ -30,7 +30,7 @@ function Eightteencec(){
                             <h2 className="tme">5 Nov, 2021</h2>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4">
                         <div style={{marginBottom:'20px'}}>
                             <img src={Bitm2} height='224px' style={{width:'100%'}} alt="" />
                         </div>
@@ -40,7 +40,7 @@ function Eightteencec(){
                             <h2 className="tme">29 Oct, 2021</h2>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4">
                         <div style={{marginBottom:'20px'}}>
                             <img src={Bitm3} height='224px' style={{width:'100%'}} alt="" />
                         </div>

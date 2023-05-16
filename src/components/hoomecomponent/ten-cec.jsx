@@ -25,7 +25,7 @@ function Tencec(){
                 <div className="row" style={{marginBottom:'20px'}}>
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div className="scroal" >
                             <div>
                                 <h2 className="al">Show All &nbsp;<sup>14</sup></h2>
                             </div>
@@ -45,8 +45,8 @@ function Tencec(){
                     </div>
                     <div className="col-md-3"></div>
                 </div>
-                <div className="row" style={{marginBottom:'20px'}}>
-                    <div className="col-lg-5">
+                <div className="row haze">
+                    <div className="col-lg-5 col-md-6 mt-2">
                         <div style={{position:"relative"}}>
                             <img src={Bitmapon} style={{width:'100%'}} alt="" />
                             <div style={{position:'absolute',bottom:'50px',left:'40px'}}>
@@ -57,7 +57,7 @@ function Tencec(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-md-6 mt-2">
                         <div style={{position:"relative"}}>
                             <img src={Bitmap2} style={{width:'100%'}} alt="" />
                             <div style={{position:'absolute',bottom:'50px',left:'40px'}}>
@@ -70,7 +70,7 @@ function Tencec(){
                     </div>
                 </div>
                 <div className="row" style={{marginBottom:'40px'}}>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-md-7 mt-2">
                         <div style={{position:"relative"}}>
                             <img src={Bitmap3} style={{width:'100%'}} alt="" />
                             <div style={{position:'absolute',bottom:'50px',left:'40px'}}>
@@ -81,7 +81,7 @@ function Tencec(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-5 mt-2">
                         <div style={{position:"relative"}}>
                             <img src={Bitmap4} style={{width:'100%'}} alt="" />
                             <div style={{position:'absolute',bottom:'50px',left:'40px'}}>

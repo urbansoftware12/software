@@ -1,7 +1,7 @@
 import React from "react";
 import './hoome.css';
 import Firstcec from "../components/hoomecomponent/first-cec";
-import Header from "../components/header/header";
+// import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Secondcec from "../components/hoomecomponent/second-cec";
 import Thirdcec from "../components/hoomecomponent/third-cec";
@@ -22,10 +22,12 @@ import Seventeencec from "../components/hoomecomponent/seventeen-cec";
 import Eightteencec from "../components/hoomecomponent/eightteen-cec";
 import Nineteencec from "../components/hoomecomponent/nineteen-cec";
 import Twentycec from "../components/hoomecomponent/twenty-cec";
+import Navbar from "../components/navbar/navbar";
 function Hoome(){
 return(
     <div className="hme">
-        <Header/>
+        {/* <Header/> */}
+        <Navbar/>
         <Firstcec/>
         <Secondcec/>
         <Thirdcec/>

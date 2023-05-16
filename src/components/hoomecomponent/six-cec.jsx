@@ -7,7 +7,7 @@ function Sixcec(){
             <div className="container-fluid fetur" >
             <div className="row">
                 
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                     <div className="mt-5">
                             <h2 className="mdrn">Features</h2>
                         </div>
@@ -43,7 +43,7 @@ function Sixcec(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                     <div>
                         <img src={Picu} alt="" style={{width:'100%'}} srcset="" />
                     </div>

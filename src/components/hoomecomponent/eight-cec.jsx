@@ -7,12 +7,12 @@ function Eightcec(){
         <div className="eghtcec">
         <div className="container-fluid mkncmplx" >
             <div className="row">
-                <div className="col-lg-5">
+                <div className="col-lg-5 col-md-5">
                     <div>
                         <img src={Pitc} style={{width:'100%'}} alt="" srcset="" />
                     </div>
                 </div>
-                    <div className="offset-lg-1 col-lg-6">
+                    <div className="offset-lg-1 col-lg-6 0ffset-md-1 col-md-6">
                     <div className="mt-5">
                             <h2 className="mdrn">Service</h2>
                         </div>

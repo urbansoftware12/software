@@ -6,7 +6,7 @@ import $ from 'jquery';
 function Hader() {
     return (
       <div className="App">
-            <Navbar collapseOnSelect expand="lg"  style={{backgroundColor: 'white'}} variant="dark">
+            <Navbar collapseOnSelect expand="lg" variant="dark" fixed='top'>
               <div className='container-fluid hadder' >
                 <Navbar.Brand href="./hom">
                   <img src={Whitelogo} width="90" height="42" className="d-inline-block align-top" alt="React Bootstrap logo"/>

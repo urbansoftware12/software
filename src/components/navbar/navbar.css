@@ -1,0 +1,108 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    /* Add other styles as needed */
+  }
+  .navbar-logo {
+    font-size: 20px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .navbar-menu.open {
+    height: auto;
+  }
+  
+  .navbar-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+  }
+  
+  .navbar-item {
+    padding: 10px;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle-line {
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #333;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggle-line.open:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .navbar-toggle-line.open:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggle-line.open:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  
+
+  .navlinq{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    color: #000000 !important;
+    font-family: 'Urbanist-medium';
+    font-size: 14px !important;
+}
+.navlinq:hover{
+    color: #F4F4F4 !important;
+}
+.hdder {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto; */
+    background-color:transparent;
+    border-bottom: 0.5px solid !important;
+    /* line-height: 40px; */
+}
+
+.hdder.active {
+    background: #141414;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    color: #f1f1f1 !important;
+}

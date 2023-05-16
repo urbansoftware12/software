@@ -325,12 +325,12 @@ function Secondcec(){
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-5">
                         <div>
                             <img src={Pix} className="picts" alt="" />
                         </div>
                     </div>
-                    <div className="offset-lg-1 col-lg-6">
+                    <div className="offset-lg-1 col-lg-6 offset-md-1 col-md-6">
                         <div>
                             <h2 className="mdrn">ABOUT</h2>
                         </div>

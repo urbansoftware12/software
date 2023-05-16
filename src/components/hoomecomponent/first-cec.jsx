@@ -10,7 +10,7 @@ function Firstcec(){
         <div className="frstcec">
             <div className="container-fluid cec" style={{maxWidth: '1280px',marginTop:'-16px'}}>
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div>
                             <h2 className="mdrn">MODERN COMPNAY</h2>
                             <h2 className="hlp">Your Supercharged <br /> Design Workflow.</h2>
@@ -161,7 +161,7 @@ function Firstcec(){
 
                         </div>
                     </div>
-                    <div className="offset-lg-1 col-lg-5">
+                    <div className="offset-lg-1 col-lg-5 offset-md-1 col-md-5">
                         <div className="">
                             <img src={Pic} alt="" className="pict" />
                         </div>
