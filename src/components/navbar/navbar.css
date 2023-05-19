@@ -87,7 +87,17 @@
     font-size: 14px !important;
 }
 .navlinc:hover{
-    color: red !important;
+    color: #34A9FF !important;
+}
+.navlinc:after{
+    background-color: #34A9FF;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 22px;
+    transition: 1s;
+    width: 0;
 }
 .hdder {
     /* position: fixed;
