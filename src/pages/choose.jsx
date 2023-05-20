@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header/header";
+import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Firstseec from "../components/choosecomponents/first-seec";
 import './choose.css';
@@ -10,7 +10,7 @@ import Fourseec from "../components/choosecomponents/four-seec";
 function Choosepage(){
     return(
         <div className="chosepage">
-            <Header/>
+            <Navbar/>
             <Firstseec/>
             <Secondseec/>
             <Thirdseec/>

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../src/components/header/header";
+import Navber from "../../src/components/navber/navber";
 import Footer from "../../src/components/footer/footer";
 import Firstsac from "../../src/components/contactcomponents/first-sac";
 import Secondsac from "../components/contactcomponents/second-sac";
@@ -7,7 +7,7 @@ import Thirdsac from "../components/contactcomponents/third-sac";
 function Contact () {
     return(
         <div className="cntact">
-<Header/>
+<Navber/>
 <Firstsac/>
 <Secondsac/>
 <Thirdsac/>

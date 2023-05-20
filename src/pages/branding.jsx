@@ -5,13 +5,13 @@ import Firstsecc from "../components/brandingcomponents/first-secc";
 import './branding.css';
 import Secondsecc from "../components/brandingcomponents/second-secc";
 import Thirdsecc from "../components/brandingcomponents/third-secc";
-import Navbar from "../components/navbar/navbar";
+import Navber from "../components/navber/navber";
 
 function Brandingpage(){
     return(
         <div className="brndingpage">
             {/* <Header/> */}
-            <Navbar/>
+            <Navber/>
             <Firstsecc/>
             <Secondsecc/>
             <Thirdsecc/>

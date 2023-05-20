@@ -20,8 +20,9 @@ import Fifteencec from "../components/hoomecomponent/fifteen-cec";
 import Sixteencec from "../components/hoomecomponent/sixteen-cec";
 import Seventeencec from "../components/hoomecomponent/seventeen-cec";
 import Eightteencec from "../components/hoomecomponent/eightteen-cec";
-import Nineteencec from "../components/hoomecomponent/nineteen-cec";
+// import Nineteencec from "../components/hoomecomponent/nineteen-cec";
 import Twentycec from "../components/hoomecomponent/twenty-cec";
+import Thirdsac from "../components/contactcomponents/third-sac";
 import Navbar from "../components/navbar/navbar";
 function Hoome(){
 return(
@@ -46,7 +47,8 @@ return(
         <Sixteencec/>
         <Seventeencec/>
         <Eightteencec/>
-        <Nineteencec/>
+        <Thirdsac/>
+        {/* <Nineteencec/> */}
         <Twentycec/>
         <Footer/>
     </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import Pic from "../../assets/graphic.png";
-import Gitlab from '../../assets/gitlab.png';
-import Slack from '../../assets/slack.png';
-import Netflix from '../../assets/netflix.png';
-import Paypal from '../../assets/paypal.png';
+// import Gitlab from '../../assets/gitlab.png';
+// import Slack from '../../assets/slack.png';
+// import Netflix from '../../assets/netflix.png';
+// import Paypal from '../../assets/paypal.png';
+import Sliderr from "./sliderr";
 import { Button } from "react-bootstrap";
 function Firstcec(){
     return(
@@ -23,39 +24,8 @@ function Firstcec(){
                             </div>
                             {/* KC */}
 
-                            <div id="demone" className="carousel slide" data-bs-ride="carousel">
+                            {/* <div id="demone" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
-                        {/* <div className="row">
-                            <div className="col-md-3">
-                                <div  className="carousel-item active">
-                                    <div className="text-center">
-                                        <img src={Gitlab} alt="Los Angeles"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div  className="carousel-item">
-                                    <div className="text-center">
-                                        <img src={Slack} alt="Los Angeles"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div  className="carousel-item">
-                                    <div className="text-center">
-                                        <img src={Netflix} alt="Los Angeles"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div  className="carousel-item">
-                                    <div className="text-center">
-                                        <img src={Paypal} alt="Los Angeles"/>
-                                    </div>
-                                </div>
-                            </div>
-                                
-                            </div> */}
                         <div className="carousel-item active">
                             <div className="row">
                                 <div className="col-md-3">
@@ -155,9 +125,14 @@ function Firstcec(){
                             </div> 
                         </div>
                     </div>
-                            </div>
+                            </div> */}
+                            
 
                             {/* car */}
+
+                            <div>
+                                <Sliderr/>
+                            </div>
 
                         </div>
                     </div>

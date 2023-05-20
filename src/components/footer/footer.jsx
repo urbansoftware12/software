@@ -4,6 +4,7 @@ import {ReactComponent as Linnk} from '../../assets/linnk.svg';
 import {ReactComponent as Insta} from '../../assets/inst.svg';
 import {ReactComponent as Fbb} from '../../assets/fbb.svg';
 import {ReactComponent as Whatss} from '../../assets/whatss.svg';
+import Designrush from '../../assets/designrush-logo.svg';
 import {Row} from 'react-bootstrap';
 function Footer()
 {
@@ -11,8 +12,32 @@ function Footer()
     <div className="App">
       <div style={{backgroundColor: '#141414'}}>
         <div className='container-fluid' style={{maxWidth: '1280px',paddingBottom: '15px',paddingTop: '50px'}}>
+          {/* <div className='botn' style={{color: 'white',textAlign: 'left',paddingBottom: '30px'}}>
+            <h1 className='design in-left'>Design.Built.Launch</h1>
+          </div> */}
+          {/* <div style={{display:'flex',justifyContent:'space-around'}}>
           <div className='botn' style={{color: 'white',textAlign: 'left',paddingBottom: '30px'}}>
             <h1 className='design in-left'>Design.Built.Launch</h1>
+          </div>
+            <div>
+              <a href='https://www.designrush.com/agency/profile/urban-software-web-development' target='blank'>
+                <img src={Designrush} style={{width:'100%'}} alt="" srcset="" />
+              </a>
+            </div>
+          </div> */}
+          <div className='row'>
+            <div className='col-lg-8'>
+            <div className='botn' style={{color: 'white',textAlign: 'left',paddingBottom: '30px'}}>
+            <h1 className='design in-left'>Design.Built.Launch</h1>
+          </div>
+            </div>
+            <div className='col-lg-3'>
+            <div className='botn text-center'>
+              <a href='https://www.designrush.com/agency/profile/urban-software-web-development' target='blank'>
+                <img src={Designrush} style={{width:'100%'}} alt="" srcset="" />
+              </a>
+            </div>
+            </div>
           </div>
           <Row>
             <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>

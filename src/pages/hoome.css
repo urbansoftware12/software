@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.dsply{
+    text-align: center;
+}
 .foamz {
     border: 1px solid #34A9FF !important;
     background-color: transparent !important;
@@ -220,6 +223,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 32px;
 color: #FFFFFF;
+cursor: pointer;
 }
 .all{
     font-family: 'Urbanist-regular';
@@ -228,6 +232,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 32px;
 color: rgba(255, 255, 255, 0.64);
+cursor: pointer;
 }
 .txt{
     font-family: 'Urbanist-medium';
@@ -563,6 +568,12 @@ line-height: 48px;
 color: #000000;
 
 }
+.tab__cont  {
+    display: none
+    }
+    .tab__cont.active{
+    display: block
+    } 
 .quest1{
     font-family: "Urbanist Semibold";
     color: #000000;

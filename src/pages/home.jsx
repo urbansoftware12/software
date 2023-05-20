@@ -1,4 +1,4 @@
-import Header from '../components/header/header';
+import Navber from '../components/navber/navber';
 import Footer from '../components/footer/footer';
 import Firstsec from '../components/homecomponents/first-sec';
 import Secondsec from '../components/homecomponents/second-sec';
@@ -10,7 +10,7 @@ function Homepage()
 {
     return(
         <div className="homepage">
-            <Header />
+            <Navber />
             <Firstsec/>
             <Secondsec/>
             <Thirdsec/>

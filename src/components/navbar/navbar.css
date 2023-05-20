@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,6 @@
     top: 0;
     width: 100%;
     z-index: 100;
-    /* Add other styles as needed */
   }
   .navbar-logo {
     font-size: 20px;
@@ -62,9 +61,9 @@
   
   .navbar-toggle-line.open:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-  }
+  } */
   
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .navbar-menu {
       display: none;
     }
@@ -72,9 +71,14 @@
     .navbar-toggle {
       display: block;
     }
-  }
+  } */
   
-
+.navlinc{
+  color: #000000 !important;
+}
+.navlince{
+  color: #0c466e !important;
+}
   .navlinq{
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -82,8 +86,8 @@
     font-family: 'Urbanist-medium';
     font-size: 14px !important;
 }
-.navlinq:hover{
-    color: #F4F4F4 !important;
+.navlinc:hover{
+    color: red !important;
 }
 .hdder {
     /* position: fixed;
@@ -99,10 +103,23 @@
     /* line-height: 40px; */
 }
 
-.hdder.active {
+/* .hdder.active {
     background: #141414;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     color: #f1f1f1 !important;
+} */
+
+.hdder.active {
+  border-bottom: 0.5px solid;
+  background: hsla(0,0%,100%,0.9) !important;
+  box-shadow: 0px 10px 40px rgb(0 0 0 / 15%) !important;
+  color: #F4F4F4 !important;
 }
+
+/* .hdder.active {
+  border-bottom: 0.5px solid;
+  background: #000000 !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+} */
