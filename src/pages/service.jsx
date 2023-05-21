@@ -1,5 +1,5 @@
 import React from "react";
-import Navber from "../components/navber/navber";
+import Navber from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Firstsect from "../components/servicecomponents/first-sect";
 import Secondsect from "../components/servicecomponents/second-sect";

@@ -1,4 +1,4 @@
-import Navber from '../components/navber/navber';
+import Navber from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
 import Firstsec from '../components/homecomponents/first-sec';
 import Secondsec from '../components/homecomponents/second-sec';

@@ -9,7 +9,7 @@ import { Button } from "react-bootstrap";
 function Firstcec(){
     return(
         <div className="frstcec">
-            <div className="container-fluid cec" style={{maxWidth: '1280px',marginTop:'-16px'}}>
+            <div className="container-fluid cec" style={{maxWidth: '1280px',marginTop:'-85px'}}>
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div>
