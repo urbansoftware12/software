@@ -1,0 +1,67 @@
+.slideInner___2mfX9{
+    width:98% !important;
+}
+.redycncpt{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.launchcncpt{
+    color: #545469;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.cnpct{
+    font-family: "Urbanist Regular", Sans-serif !important;
+    font-size: 16px !important ;
+    font-weight: 500 !important;
+    fill: #1F1F2F !important;
+    color: #1F1F2F !important;
+    background-color: #FFFFFF !important;
+    border-style: solid !important;
+    border-width: 2px 2px 2px 2px !important;
+    border-color: #34A9FF !important;
+    border-radius: 5px 5px 5px 5px !important;
+    padding: 15px 020px 15px 20px !important;
+}
+.btn-primary:hover{
+    background-color: #34A9FF !important;
+    border-color: #34A9FF !important;
+    color: #FFFFFF !important;
+}
+.azaah{
+    color: black;
+}
+.scndconcp{
+    background-image: url(../assets/wabe.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.designcncpt{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.prsentable{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.prodctinterface{
+    color: #545469;
+    font-family: "Urbanist-regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

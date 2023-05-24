@@ -5,7 +5,7 @@ import {ReactComponent as Are} from '../../assets/axa.svg';
 function Firstsecs(){
     return(
         <div className="frstsecs">
-            <div className="container-fluid inovatbrand" style={{maxWidth: '1280px',}}>
+            <div className="container-fluid inovatbrand" style={{maxWidth: '1280px',marginTop:'-85px'}}>
                 <div className="row">
                     <div className="col-lg-6">
                         <div>
@@ -26,7 +26,6 @@ function Firstsecs(){
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

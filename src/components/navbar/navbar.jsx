@@ -45,7 +45,7 @@ const NavbarComponent = () => {
           >
           <Container fluid >
             <Navbar.Brand href="./hoome">
-              <img src={!urlString || darkNav.includes(urlString) ? Whitelogo : Blacklogo}  width="90" height="42" alt="React Bootstrap logo" />
+              <img src={!urlString || darkNav.includes(urlString) ? Blacklogo : Whitelogo}  width="90" height="42" alt="React Bootstrap logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -61,7 +61,7 @@ const NavbarComponent = () => {
                   <Nav.Link style={{color: navLinkColor}} href="./branding">Branding</Nav.Link>
                   <Nav.Link style={{color: navLinkColor}} href="./marketing">Marketing</Nav.Link>
                   <Nav.Link style={{color: navLinkColor}} href="./service">Services</Nav.Link>
-                  <Nav.Link style={{color: navLinkColor}} href="#action4">Conceptzilla</Nav.Link>
+                  <Nav.Link style={{color: navLinkColor}} href="./concept">Conceptzilla</Nav.Link>
                   <Nav.Link style={{color: navLinkColor}} href="./whychooseus">Why Choose Us</Nav.Link>
                   <Nav.Link style={{color: navLinkColor}} href="./insight">Insights</Nav.Link>
                   <Nav.Link style={{color: navLinkColor}} href="./contactus">Get in Touch</Nav.Link>

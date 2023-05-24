@@ -14,6 +14,7 @@ import Uxx from './pages/uxx';
 import Privacypolic from './pages/privacypolic';
 import Cookiepolicy from './pages/cookiepolicy';
 import Hoome from './pages/hoome';
+import Concept from './pages/concept';
 const App = () => {
   return (
     <div className='roo-container'>
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/branding' exact element={<Brandingpage />} />
           <Route path='/whychooseus' exact element={<Choosepage />} />
           <Route path='/contactus' exact element={<Contact />} />
+          <Route path='/concept' exact element={<Concept/>} />
           <Route path='/insight' exact element={<Insight />} />
           <Route path='/insight/insightnewss' exact element={<Insightnewss />} />
           <Route path='/marketing' exact element={<Marketingpage />} />
