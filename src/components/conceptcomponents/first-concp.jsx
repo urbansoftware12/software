@@ -3,8 +3,8 @@ import Sleeder from "../conceptcomponents/sleeder";
 function Firstconcp (){
 return(
     <div className="frstconcept">
-        <div className="container-fluid" style={{maxWidth:'1280px',marginTop:'-85px'}}>
-            <div style={{paddingTop:'185px',paddingBottom:'140px'}}>
+        <div className="container-fluid presentations" style={{maxWidth:'1280px',marginTop:'-85px'}}>
+            <div className="startups">
                 <div className="text-center">
                     <h1 className="redycncpt">Presentation-ready concepts <br/>for $3000 within one week</h1>
                 </div>

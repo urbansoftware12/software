@@ -173,7 +173,15 @@ span.svg {
 }
 .svgg{
     transform: rotate(180deg);
+    /* -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear; */
 }
+/* .svgg.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+} */
 .box {
     transition: box-shadow .3s;
     box-shadow: 0 10px 20px 0 rgb(0 0 0 / 3%);
