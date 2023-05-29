@@ -57,12 +57,12 @@
     -moz-animation-fill-mode: both;
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 15s;
-    -moz-animation-duration: 15s;
-    -o-animation-duration: 15s;
-    animation-duration: 15s;
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -o-animation-duration: 15s;
-    animation-delay: 15s;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-duration: 5s;
+    animation-delay: 5s;
 }

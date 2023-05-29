@@ -4,7 +4,7 @@ function Firstsec ()
 {
     return(
         <div className="frstsec" >
-            <div className="container-fluid contan">
+            <div className="container-fluid contan" style={{maxWidth: '1280px',marginTop:'-85px'}}>
                 <div style={{marginBottom: '10px'}}>
                 <img src={Whitelogo} width="40"height="30"alt="React logo"/>
                 </div>

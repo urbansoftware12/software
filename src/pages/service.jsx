@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header/header";
+import Navber from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Firstsect from "../components/servicecomponents/first-sect";
 import Secondsect from "../components/servicecomponents/second-sect";
@@ -9,7 +9,7 @@ import Thirdsect from "../components/servicecomponents/third-sect";
 function Servicepage(){
     return(
         <div className="servisepage">
-            <Header/>
+            <Navber/>
             <Firstsect/>
             <Secondsect/>
             <Thirdsect/>

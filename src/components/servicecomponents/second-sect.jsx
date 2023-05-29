@@ -59,7 +59,7 @@ function Secondsect(){
                                 We are web designers. Our job is to add value to your brand with professional web design services. Through quality design, we will transform your website into an elegant sales machine that communicates your message and converts visitors into customers.
                                 </Card.Text>
                                 <div className="float-end">
-                                    <a href="/" className="sublink">Learn More</a>
+                                    <a href="./service" className="sublink">Learn More</a>
                                 </div>
                             </Card.Body>
                         </Card>

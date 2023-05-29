@@ -4,15 +4,28 @@ import {ReactComponent as Linnk} from '../../assets/linnk.svg';
 import {ReactComponent as Insta} from '../../assets/inst.svg';
 import {ReactComponent as Fbb} from '../../assets/fbb.svg';
 import {ReactComponent as Whatss} from '../../assets/whatss.svg';
+import Designrush from '../../assets/designrush-logo.svg';
 import {Row} from 'react-bootstrap';
+// import Animat from '../../components/footer/animat';
 function Footer()
 {
   return (
     <div className="App">
       <div style={{backgroundColor: '#141414'}}>
         <div className='container-fluid' style={{maxWidth: '1280px',paddingBottom: '15px',paddingTop: '50px'}}>
-          <div className='botn' style={{color: 'white',textAlign: 'left',paddingBottom: '30px'}}>
-            <h1 className='design in-left'>Design.Built.Launch</h1>
+          <div className='row'>
+            <div className='col-lg-8'>
+              <div className='botn' style={{color: 'white',textAlign: 'left',paddingBottom: '30px'}}>
+                <h1 className='design in-left'>Design.Built.Launch</h1>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+            <div className='botn text-center'>
+              <a href='https://www.designrush.com/agency/profile/urban-software-web-development' target='blank'>
+                <img src={Designrush} style={{width:'100%'}} alt="" srcset="" />
+              </a>
+            </div>
+            </div>
           </div>
           <Row>
             <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
@@ -20,13 +33,13 @@ function Footer()
                 <h1 className='fotrheading'>General</h1>
               </div>
               <div className='ftrmenu'>
-                <a className='ftrparagraph' href="/">Home</a>
+                <a className='ftrparagraph' href="./hoome">Home</a>
               </div>
               <div className='ftrmenu'>
-                <a href="/" className='ftrparagraph'>Services</a>
+                <a href="./service" className='ftrparagraph'>Services</a>
               </div>
               <div className='ftrmenu'>
-                <a className='ftrparagraph' href="/">why Choose Us</a>
+                <a className='ftrparagraph' href="./whychooseus">why Choose Us</a>
               </div>
             </div>
             <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
@@ -38,16 +51,16 @@ function Footer()
                 <a className='ftrparagraph' href="/">Web Development</a>
             </div>
             <div className='ftrmenu'>
-                <a href="/" className='ftrparagraph'>UI/UX Design</a>
+                <a href="./uxx" className='ftrparagraph'>UI/UX Design</a>
             </div>
             <div className='ftrmenu'>
                 <a className='ftrparagraph' href="/">Digital Marketing</a>
             </div>
             <div className='ftrmenu'>
-                <a className='ftrparagraph' href="/">Branding</a>
+                <a className='ftrparagraph' href="./branding">Branding</a>
             </div>
             <div className='ftrmenu'>
-                <a href="/" className='ftrparagraph'>Mobile App Development</a>
+                <a href="./branding" className='ftrparagraph'>Mobile App Development</a>
             </div>
                 </div>
                 <div className='col-lg-3 col-md-3 col-sm-4' style={{textAlign: 'left'}}>
@@ -65,16 +78,16 @@ function Footer()
                   
                   <div className='ftrmenu' style={{display: 'flex', justifyContent: 'space-between', width: '45%'}}>
                     <div>
-                      <a href="/" className='ftrparagraph'><Linnk/></a>
+                      <a href="https://www.linkedin.com/company/urban-software-web-development/mycompany/" target='blank' className='ftrparagraph'><Linnk/></a>
                     </div>
                     <div>
-                      <a href="/" className='ftrparagraph'><Insta/></a>
+                      <a href="https://www.instagram.com/urban.software/" target='blank' className='ftrparagraph'><Insta/></a>
                     </div>
                     <div>
-                      <a href="/" className='ftrparagraph'><Fbb/></a>
+                      <a href="https://www.facebook.com/people/Urban-Software-Web-Development/100089237081045/" target='blank' className='ftrparagraph'><Fbb/></a>
                     </div>
                     <div>
-                      <a href="/" className='ftrparagraph'><Whatss/></a>
+                      <a href="https://web.whatsapp.com/" target='blank' className='ftrparagraph'><Whatss/></a>
                     </div>
                   </div>
                   <div className='ftrmenu'>

@@ -1,21 +1,25 @@
 import React from "react";
 import Pix from '../../assets/pix.png';
 import { Button } from "react-bootstrap";
-import Phython from '../../assets/python.svg';
-import Angular from '../../assets/angular.svg';
-import Php from '../../assets/php.svg';
-import Reecte from '../../assets/react.svg';
-import Javascript from '../../assets/javascript.svg';
-import Nodejs from '../../assets/node.svg';
-import Jquery from '../../assets/jquery.svg';
-import Wordpress from '../../assets/wordpress.svg';
-import Shopify from '../../assets/shopify.svg';
+// import Phython from '../../assets/python.svg';
+// import Angular from '../../assets/angular.svg';
+// import Php from '../../assets/php.svg';
+// import Reecte from '../../assets/react.svg';
+// import Javascript from '../../assets/javascript.svg';
+// import Nodejs from '../../assets/node.svg';
+// import Jquery from '../../assets/jquery.svg';
+// import Wordpress from '../../assets/wordpress.svg';
+// import Shopify from '../../assets/shopify.svg';
+import Sleder from "./sleder";
 function Secondcec(){
     return(
         <div className="scndcec">
             <div className="container-fluid pixo" style={{maxWidth:'1280px'}}>
+                <div>
+                    <Sleder/>
+                </div>
 
-                <div id="demon" style={{marginBottom:'50px'}} className="carousel slide" data-bs-ride="carousel">
+                {/* <div id="demon" style={{marginBottom:'50px'}} className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div style={{display: 'flex', justifyContent: 'space-between',flexWrap: 'wrap'}}>
@@ -322,7 +326,7 @@ function Secondcec(){
                             </div> 
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row">
                     <div className="col-lg-5 col-md-5">

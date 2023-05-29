@@ -1,0 +1,260 @@
+.slideInner___2mfX9{
+    width:98% !important;
+}
+.redycncpt{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.startups{
+    padding-top:185px;
+    padding-bottom:80px;
+}
+.crunch{
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.launchcncpt{
+    color: #545469;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.cnpct{
+    font-family: "Urbanist Regular", Sans-serif !important;
+    font-size: 16px !important ;
+    font-weight: 500 !important;
+    fill: #1F1F2F !important;
+    color: #1F1F2F !important;
+    background-color: #FFFFFF !important;
+    border-style: solid !important;
+    border-width: 2px 2px 2px 2px !important;
+    border-color: #34A9FF !important;
+    border-radius: 5px 5px 5px 5px !important;
+    padding: 15px 020px 15px 20px !important;
+}
+.btn-primary:hover{
+    background-color: #34A9FF !important;
+    border-color: #34A9FF !important;
+    color: #FFFFFF !important;
+}
+.azaah{
+    color: black;
+}
+.scndconcp{
+    background-image: url(../assets/wabe.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.designcncpt{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.prsentable{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.prodctinterface{
+    color: #545469;
+    font-family: "Urbanist-regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.listpra{
+    color: #1F1F2F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    list-style-type: none;
+}
+.prepymnt{
+    color: #FFFFFF;
+    font-family: "Hauora Medium", Sans-serif;
+    font-size: 53px;
+    font-weight: 600;
+}
+.day{
+    color: #545469;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.baslne{
+    color: #1F1F2F;
+    font-family: "Urbanist Medium", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.pack{
+    color: #545469;
+    font-family: "Urbanist Regular", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bar_fill{
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    background: #34A9FF;
+    margin-right: 5px;
+}
+.bar_fill.center {
+    margin-left: 5px;
+}
+.progress_div {
+    display: flex;
+    align-items: center;
+}
+.empty_div {
+    width: 50px;
+    height: 1px;
+    background: #1F1F2F;
+    border-radius: 5px;
+}
+.separtor {
+    width: 1px;
+    height: 7px;
+    background: #1F1F2F;
+    margin: 0px 5px;
+}
+.separtor.left {
+    margin-left: 0px;
+}
+.bar_fill.center.design {
+    width: 239px;
+}
+
+.design__addson {
+    background: #F7F7FC;
+    border-radius: 30px;
+    padding: 30px;
+}
+.valuess_dd {
+    border-top: 1px solid #D1D1E1;
+    padding-top: 16px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.time_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design__addson .txxxt {
+    min-height: 40px;
+}
+
+.design__addson p {
+    font-size: 16px;
+    color: #545469;
+    line-height: 20px;
+    font-family: 'Urbanist Regular';
+}
+.esti{
+    margin-bottom: 0rem;
+}
+.ordrcncpt{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.partial{
+    padding-top:100px;
+    padding-bottom:150px;
+}
+.fullpre{
+    padding-top:110px;
+    padding-bottom:110px;
+}
+.iter{
+    width:60px;
+    max-width:60px;
+    height:100%;
+}
+.strtfinish{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.daybasliine{
+    margin-top: 60px !important;
+}
+@media screen and (max-width: 800px){
+    .presentations br {
+        display: none;
+    }
+    .launchcncpt br{
+        display: none;
+    }
+    .redycncpt br{
+        display:none;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .redycncpt{
+        font-size: 32px !important;
+    line-height: 40px !important;
+    }
+    .prepymnt{
+        font-size: 30px !important;
+    }
+    .launchcncpt {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .startups{
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+    .designcncpt {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .crunch{
+        padding-top:120px;
+        padding-bottom:120px;
+    }
+    .ordrcncpt{
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .abotnone{
+        display: none;
+    }
+    .partial{
+        padding-top:0px;
+        padding-bottom:60px;
+    }
+    .fullpre{
+        padding-top:80px;
+        padding-bottom:80px;
+    }
+    .iter{
+        width:40px;
+    }
+    .strtfinish{
+        padding-top:60px;
+        padding-bottom:0px;
+    }
+    .daybasliine{
+        margin-top: 20px !important;
+    }
+    .s{
+        margin: 20px;
+    }
+}

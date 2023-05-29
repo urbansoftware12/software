@@ -1,10 +1,11 @@
 import React from "react";
 import Grp from '../../assets/Grp.png';
 import Grpp from '../../assets/grpp.png';
-import Bitma1 from '../../assets/Bitma1.png';
-import Bitma2 from '../../assets/Bitma2.png';
-import Bitma3 from '../../assets/Bitma3.png';
-import Bitma4 from '../../assets/Bitma4.png';
+// import Bitma1 from '../../assets/Bitma1.png';
+// import Bitma2 from '../../assets/Bitma2.png';
+// import Bitma3 from '../../assets/Bitma3.png';
+// import Bitma4 from '../../assets/Bitma4.png';
+import Slieder from './slieder';
 function Thirteencec(){
     return(
         <div className="thrteen" style={{backgroundColor:'#3A3C56'}}>
@@ -27,7 +28,10 @@ function Thirteencec(){
                         </div>
                     </div>
                 </div>
-                <div id="demone" className="carousel slide" data-bs-ride="carousel">
+                <div>
+                    <Slieder/>
+                </div>
+                {/* <div id="demone" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
     <button type="button" data-bs-target="#demone" data-bs-slide-to="0" className="active"></button>
     <button type="button" data-bs-target="#demone" data-bs-slide-to="1"></button>
@@ -157,7 +161,7 @@ function Thirteencec(){
                             </div> 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

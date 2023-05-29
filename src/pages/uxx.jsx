@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header/header";
+import Navber from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Firstscc from "../components/ux/first-scc";
 import Secondscc from "../components/ux/second-scc";
@@ -10,7 +10,7 @@ import Fourscc from "../components/ux/four-scc";
 function Uxx(){
     return(
         <div className="uex">
-<Header/>
+<Navber/>
 <Firstscc/>
 <Secondscc/>
 <Thirdscc/>

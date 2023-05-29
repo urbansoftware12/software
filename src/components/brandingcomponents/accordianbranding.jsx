@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 function Accordianbranding() {
     const [selected, setselected] = useState(null);
@@ -77,3 +77,9 @@ const data = [
 
 
 export default Accordianbranding;
+
+// const svgg = document.querySelector(".svgg");
+
+// svgg.addEventListener("click", function() {
+//   this.classList.toggle("down");
+// });

@@ -21,12 +21,12 @@
     line-height: 40px;
 }
 
-.hdder.active {
+/* .hdder.active {
     background: #141414;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-}
+} */
 @media only screen and (max-width: 1100px) and (min-width: 901px)  {
     .navlinq{
         padding-left: 10px !important;
